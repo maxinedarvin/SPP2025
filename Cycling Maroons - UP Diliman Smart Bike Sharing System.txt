@@ -1,0 +1,247 @@
+﻿UP DILIMAN SMART BIKE-SHARING SYSTEM
+Cycling Maroons
+Aliza Marie M. Casimsiman 
+David D. Daffon
+Maxine T. Darvin
+Mitch R. Kong
+Paul Kenneth H. Remo
+EXECUTIVE SUMMARY  
+This project aims to provide an accessible, affordable, and convenient public transportation service within the University of the Philippines Diliman (UPD) campus by implementing a smart bicycle-sharing system. It takes inspiration from the 2016 initiative of the University of the Philippines Bike Share (UPBS) organization and integrates data science technology. The project utilizes a smartphone application for user registration, online payment, and real-time updates on the quantity of available bicycles in all smart bicycle stations. The flat rate per thirty minutes will cost PhP 5.00 and only UPD students and faculty will be eligible to register as users for security purposes.
+The optimal locations and optimal quantity of bicycle stations are calculated using the weighted k-means clustering algorithm and elbow method, respectively. Each data point will be a point of interest (POI) within campus that is mapped and scored 1) according to its features and 2) relative to population density estimates on all weekdays except Monday at 11:30 AM and 4:00 PM. The density metric is based on data from the UP Computerized Registration System (UP CRS) and Google Maps. The algorithm will run for k = 1, 2, …, 15 per combination of time intervals, and the “elbow” simulation per possible time interval is chosen, reviewed for data validation, and evaluated via the average silhouette method.
+The project will use ArcGIS Pro and Jupyter Notebook for 2D mapping and computations. Success metrics and KPIs will be taken from user data of the smartphone application.
+
+
+KEYWORDS
+ArcGIS Pro, average silhouette method, bicycle-sharing system, cluster analysis, elbow method, Jupyter Notebook, machine learning, optimal location, public transportation, Python coding, smart technology, weighted k-means clustering
+
+
+BACKGROUND
+Public transportation is one of the most spatially efficient means of transport for higher population areas.1 It is also the most popular mode of transport in the Philippines, being 59.48% of the preferred mode of transportation of Filipinos.2 Metro Manila was ranked as having the worst traffic congestion among 387 metro areas globally in 2023.3 Other individual transport methods such as motorcycle-for-hire services Angkas and  Moveit are commonly used within the country’s major cities.4 
+Another mode of individual transport is a bicycle-sharing system (BSS), which lends commuters bicycles for limited periods of time.5 A smart BSS integrates smart technology for the safety and security of the BSS.6
+The University of the Philippines (UP) system is the most prestigious university system in the Philippines, with UP Diliman (UPD) as its flagship university.7 In UPD, most subjects meet face-to-face biweekly in 90-minute intervals either every Tuesday and Thursday or Wednesday and Friday.8 Notably, the gap between the 10:00-11:30 AM and 1:00-2:30 PM class periods is a popular lunchtime among students, and 4:00 PM is also a busy time due to the rush hour phenomenon and the end of 2:30-4:00 PM class periods. Moreover, in 2018, UPD underwent a curriculum change requiring all undergraduate students to take at least four Physical Education (PE) and six General Elective (GE) subjects to graduate regardless of his or her degree program.9
+The UPD campus is both a university campus and community, spanning eight barangays. Most of the UPD campus is spanned by Barangay U.P. Campus.10 The latter has its own independent police force, the U.P. Campus Police (UPCP), and is responsible for the security within the former, and possesses mass transportation systems such as jeepneys.11
+THE PROBLEM
+There is demand for public transportation services offered within UPD that provide greater affordability, efficiency, and location coverage for individual UPD student and faculty commuters.
+LITERATURE 
+In Iloilo City, Philippines, thirty-nine bicycle-share stations were proposed within the area based on bicycle lane routes, road networks, and nearby tourist attractions. Tourism itineraries were made with churches, heritage sites, and tourism attractions as points of interest (POIs) as well. ArcGIS Pro and ArcMap Desktop were used for data processing and analyses.12
+The k-means clustering method is an unsupervised machine learning algorithm used for location decision.13  In a 2024 study based in Mongolia, POIs in Hohhot City were mapped to calculate for the optimal locations of bus stops via k-means.14 
+
+
+A Capital Bikeshare dataset from 2022, located in Washington, D.C. is used to suggest a BSS structure for rebalancing operations by clustering bike stations and assigning a rebalance vehicle to each cluster. There, the Elbow Method serves as a fundamental approach for determining the optimal number of clusters, while the Average Silhouette Method further refines cluster selection based on similarity measurements.15 
+Andrin et al. (n.d.) conducted a qualitative study in Visayas State University regarding the implementation of a university-wide BSS, where around 57.3% of students responded they are likely to use the service.16 Moreover, a study by Sharmeen, Ghosh, and Mateo-Babiano (2020) found that UPD students typically experience mobility problems as a result of distance between classrooms.17 As a response, the University of the Philippines Bikeshare (UPBS) organization was formed to develop a BSS for commuting efficiency and convenience. The organization was lauded by Sunio, Laperal, and Mateo-Babiano (2020), stating "developers, LGUs, and other campuses have asked if they can implement the same system" before the BSS was discontinued due to the COVID-19  pandemic.18
+OBJECTIVES
+The project aims to satisfy the following SMART objectives:
+* To provide a sustainable public transportation service primarily for UPD students and faculty within the UPD campus that is accessible, affordable, and time-efficient
+* To lessen jeepney overcrowding and vehicle congestion within the streets of the UPD campus
+* To promote the use of clustering and data science methods for data analysis in the Philippines
+* To encourage the proliferation and further development of smart bicycle-sharing systems in the Philippines
+* To gather all relevant data for the improvement of future iterations of this project, if any
+
+
+SCOPE DEFINITION
+
+
+The service will be offered strictly within the UPD campus bound by major roadworks Commonwealth Avenue, C.P. Garcia Avenue, and Katipunan Avenue for safety and security purposes.
+The project proposes to use a smartphone application with user registration, real-time updates on bicycle station capacity, bicycle activation, GCash online payment method, and ride information. Only students and faculty under the current UPD academic semester are eligible to register.
+The service will operate every day of the week from 6:00 AM to 8:00 PM. A fixed rate of five Philippine pesos (PhP 5.00) will be charged per thirty minutes.
+Using Jupyter Notebook, the project will calculate for the locations and quantity of the optimal locations of bicycle stations via the weighted k-means clustering method and elbow method where k = 1, 2, …, 15 respectively. The UP CRS and Google Maps data are taken on typical weekdays except Monday at times 11:30 AM and 4:00 PM. Thus, there will be 15 simulations for each of the 8 time interval combinations.
+All data points will be locationally-accurate POIs within the UPD campus mapped on ArcGIS Pro. Each POI is assigned a location score and a modifier depending on the time interval being accounted for. A single POI may possess multiple features and modifiers at once. The summation of their corresponding value assignments serves as the final weight of the POI in the given timeframe. The value tables are as follows:
+Score
+	Location-based Feature/s
+	3.00
+	Canteens and eating areas
+Venues of GE & PE subjects
+	2.00
+	Jeepney waiting areas
+Libraries and study areas  
+	1.00
+	Dormitories
+Tambayans
+	
+
+Modifier
+	Time-based Feature/s
+	+1.00
+	Dark red traffic indicator
+Top 1 pop. density venue
+	+0.75
+	Red traffic indicator
+Top 2 pop. density venue
+	+0.50
+	Yellow traffic indicator
+Top 3 pop. density venue
+	The digital nature of the project requires a stable internet connection from its users to avail of the service. For similar reasons, the project has no physical base of operations.
+The project does not consider factors that may influence typical traffic data such as car accidents, roadworks, or weather. 
+DATASETS UTILIZED
+
+
+The project utilizes the following datasets for determining the optimal locations of bicycle stations within the UPD campus:
+* Locations of points of interest (POIs) within the UPD campus:
+   * Canteens and eating areas
+   * Dormitories
+   * Jeepney waiting areas
+   * Libraries
+   * Tambayans
+   * Venues for GEs and PEs
+* Population density indicators for all weekdays except Monday at times 11:30 AM and 4:00 PM
+   * The concurrent student population of all GE and PE classes on 10:00-11:30 AM and 2:30-4:00 PM time periods per venue according to the UP Computerized Registration System (UP CRS) website assuming a 95% attendance rate
+   * The typical traffic of roads within the UPD campus according to Google Maps
+METHODOLOGY
+A general methodology was formulated for the conduct of this project:
+  
+
+
+
+The project team will first download all the relevant datasets: latitude and longitude coordinates of POIs from Google Earth, class data for all GEs and PEs from UP CRS, and open-source typical traffic data from Google Maps, with the last two datasets taken at times 11:30 AM and 4:00 PM on all weekdays except Monday.
+For data pre-processing, the coordinates of all POIs are compiled in an Excel table. Each POI is given a location-based score independent of temporal data. Then, the formula below is followed to calculate the POI score at a specific time interval:
+
+where
+  =   final score of the  POI
+ =    location score/s of 
+  =   total number of feature/s of 
+ =    pop. density modifier/s of 
+  =   total number of modifier/s of 
+The table data is imported to ArcGIS Pro. On all 8 combinations of time intervals, the weighted k-means algorithm is iterated with hyperparameters k = 1, 2, …, 15. Then, k values are plotted against their respective within-cluster sum of squares (WCSS) values. The k values at the “elbow” point of each graph are selected as the optimal k for the specified time interval.
+All points of the 8 simulations with the optimal quantity of clusters for their time interval are reviewed and, if needed, repositioned to the nearest most feasible location for user safety and accessibility.
+Finally, the data of the 8 simulations are validated by the average silhouette method (ASM). The silhouette coefficient values of all individual points of the 8 simulations are first computed and then averaged per simulation to measure the quality of each simulation’s clustering.
+The final set of optimal locations will be chosen among the 8 simulations based on accessibility and results of the ASM.
+POTENTIAL CHALLENGES
+The project team may have difficulties in finding and compiling all relevant datasets. There may be a lack of computational power to quickly run all simulations.
+Upon implementation, the project risks neglect and destruction of property such as theft and vandalism. Additionally, all bicycles and bicycle stations will decline in quality over time after repeated use and exposure to bad weather conditions.
+The smartphone application and user database may be prone to cybersecurity attacks. Technical issues such as crashes and device incompatibility may also occur.
+The smartphone application will strictly require internet connectivity from its users, which may pose a challenge to users in areas of the UPD campus with weak or unstable network connection.
+The service requires starting capital for the creation of the application and attaining its physical equipment. The project may also struggle to promote itself among UPD students and faculty.
+MITIGATION STRATEGIES
+The project team may consider alternative references for the acquisition of relevant datasets and contact interested groups or institutions for potential partnerships and lending of computational power, if needed.
+To prevent bicycle mismanagement and promote accountability between users, the project utilizes smart bicycle locks and GPS tracking per bicycle, limits user eligibility to registered UPD students and faculty only, and requires users to agree to a Terms & Conditions contract in order to register.
+Cybersecurity measures will be established to prioritize the privacy and security of user data. Moreover, all bicycles and smart bicycle stations shall be subject to monthly maintenance sessions for user safety and overall longevity of the service.
+For ease of communication, the project will have an official public Facebook Page, public Facebook Group, and email address for questions, suggestions, partnerships, and complaints. Refunds may be provided to users on a case-to-case basis.
+The project team may form collaborations with other organizations for assistance in aspects such as but not limited to: project funding, security, and promotions by contacting the Office of the Vice Chancellor for Community Affairs (OVCCA), UPCP, and UPBS respectively..
+SUCCESS METRICS AND KPI’S
+The project will collect the following user data from the smartphone application and Meta Business Suite to serve as KPIs:
+* average daily bicycle availability
+   * per station
+   * in all stations
+* average ride frequency of users
+   * per week
+   * per month
+* average ride distance of users
+   * per week
+   * per month
+* Facebook Page statistics
+   * follower count
+   * user engagement count
+* Facebook Group statistics
+   * member growth per week
+   * member posts per week
+* total number of registered users
+   * UPD students
+   * UPD faculty
+* total number of active users (i.e. users that have rented a bicycle for no more than one week ago)
+The KPIs were chosen to evaluate the performance of the optimal locations and optimal quantity of bicycle stations.
+The project team stresses the importance of coordination with both its user base and the appropriate offices and organizations of the UPD community for the continued development of university-wide welfare.
+
+
+________________
+
+
+
+
+REFERENCES
+1 Kii, M., & Hanaoka, S. (2003). Comparison of sustainability between private and public transport considering urban structure. IATSS Research, 27(2), 6–15. DOI: 10.1016/s0386-1112(14)60139-4
+2 Standard Insights. (February 27, 2023). Leading modes of transportation among people in the Philippines as of January 2023 [Graph]. In Statista. Retrieved September 26, 2024, URL: https://www.statista.com/statistics/1338717/philippines-most-used-modes-of-transportation/.
+3 International Trade Administration. (2022). Philippines - transport infrastructure. URL:  https://www.trade.gov/country-commercial-guides/philippines-transport-infrastructure.
+4 Napalang, M. S., Regidor, J. R. (2017). Innovation Versus Regulation: An Assessment of the Metro Manila Experience in Emerging Ridesourcing Transport Services, Journal of the Eastern Asia Society for Transportation Studies, Volume 12, Pages 343-355, Released on J-STAGE April 25, 2018, Online ISSN 1881-1124, https://doi.org/10.11175/easts.12.343
+.5 Bike Share Schemes (BSS) (n.d.). Ecf.com.  URL: https://ecf.com/what-we-do/urban-mobility/bike-share-schemes-bss.
+6 Midgley, P. (2009). The Role of Smart Bike-Sharing Systems in Urban Mobility. Journeys, 2. URL: https://www.researchgate.net/publication/242235724_The_Role_of_Smart_Bike-sharing_Systems_in_Urban_Mobility
+7 UP Diliman. (2024). About UP Diliman. URL: https://upd.edu.ph/about/history/.
+8 Office of the University Registrar. (n.d.). General Catalogue of the University of the Philippines - Diliman: Class Schedules. URL: https://our.upd.edu.ph/files/acadinfo/CLASS%20SCHEDULE%20.pdf.
+9 Lucas, A.J. (2016). The GE Reform as a Threat to UP Education’s Nationalist Aspirations. The Philippine Collegian. URL: https://phkule.org/article/610/the-ge-reform-as-threat-to-up-educations-nationalist-aspirations.
+10 Marquez, Consuelo (January 23, 2021). "UP Diliman is not Barangay UP Campus, says university official". Philippine Daily Inquirer. Retrieved April 21, 2021.
+11 Public Safety and Security Office – Office of the Vice Chancellor for Community Affairs. (2024). Upd.edu.ph.  URL: https://ovcca.upd.edu.ph/offices/public-safety-and-security-office/.
+12 Fargas, D. C., Jr, Gregorio, A. D., & Endaya, M. D. (2024). SUITABILITY ANALYSIS FOR URBAN BICYCLE TOURISM OF ILOILO CITY USING GIS. the International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences/International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences, XLVIII-4/W9-2024, 157–163. https://doi.org/10.5194/isprs-archives-xlviii-4-w9-2024-157-2024.
+13 Kavlakoglu, E., Winland, V. (2024). What is k-means clustering? IBM. URL: https://www.ibm.com/topics/k-means-clustering.
+14 Yu, J., Zhu, Y., Wu, C., and Song, G. (2024). Optimization of Bus Stop Location based on Spatial Analysis and K-Means Clustering Method - A Case Study in Hohhot City. DOI: 10.21203/rs.3.rs-3913979/v1.
+15 Shir, B., Prakash Verma, J., & Bhattacharya, P. (2023). Mobility prediction for uneven distribution of bikes in bike sharing systems. Concurrency and Computation: Practice and Experience, 35(2), e7465.
+16 Andrin, A. C., Gutierrez, J., Oca, B., & Mejia, H. (2019). Preliminary Study on the Feasibility of a Bicycle-Sharing System at Visayas State University in Baybay City, Leyte. URL: https://ncts.upd.edu.ph/tssp/wp-content/uploads/2019/09/TSSP2019-12_Preliminary-Study-on-the-Feasibility-of-a-Bicycle-Sharing-System-at-Visayas-State-University.pdf
+17 Sharmeen, F., Ghosh, B., & Mateo-Babiano, I. (2020). Policy, users and discourses: Examples from bikeshare programs in (Kolkata) India and (Manila) Philippines. Journal of Transport Geography, 90, 102898. DOI: 10.1016/j.jtrangeo.2020.102898
+18 Sunio, V., Laperal, M., & Mateo-Babiano, I. (2020). Social enterprise as catalyst of transformation in the micro-mobility sector. Transportation Research Part a Policy and Practice, 138, 145–157. DOI: 10.1016/j.tra.2020.05.027.
+19 Cardano, B. (2024). Guide to UP Diliman Campus Life - Libraries and Canteens. URL: https://drive.google.com/drive/folders/1ZsVJeM0XioEwRnexUxyDsYcPRUJMH3I0.
+20 Tejada, S. (n.d.). UP Diliman Libraries & Canteens/Dining Places Map. URL: https://www.google.com/maps/d/u/0/viewer?mid=1t0cThyTIC1dEiaUmzrA_KBGAQsyV6Wc&ll=14.652333070164595%2C121.06557627720646&z=16.
+21 Flores, J. P. (2013). University of the Philippines Diliman Campus Map. UP Diliman Information Office.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+APPENDICES
+Appendix A: Logo, Mockup, Smartphone Application UI
+The link to the prototype is here. A mockup to the smartphone application is as follows:
+  
+  
+
+  
+  
+________________
+
+
+
+Appendix B: BICYCLE-SHARE TERMS AND CONDITIONS
+The USER should CAREFULLY READ all terms and conditions before entering into this Agreement.
+1. PURPOSE OF AGREEMENT
+This document constitutes the entire Agreement (“Agreement”) between (a) USER, the person agreeing to use the bicycle, and (b) the bicycle-share service operator (“CYCLING MAROONS”).
+2. GENERAL BICYCLE-SHARING SYSTEM GUIDELINES
+   1. The service shall operate every day of the week from 06:00 to 20:00 PHT. Assuming no user violations, all bicycles shall be returned by 20:30 PM PHT at the latest.
+   2. Each ride shall impose a fixed fee of not less than five Philippine pesos (PhP 5.00) for a time limit of not more than thirty (30) minutes starting from when the smart bicycle lock is unlocked and after the successful verification of online payment.
+   3. To register to the service, USER shall provide a working email address officially associated with the University of the Philippines Diliman. USER shall provide a valid URL to his or her Facebook Messenger and his or her mobile number.
+   4. USER may give unregistered persons access to the bicycle-sharing service. He or she shall take full responsibility for the actions of the unregistered person. Any violations performed by the unregistered person shall be regarded as if it were the user’s own.
+   5. Failure to adhere to the time limit will incur an additional ten peso (PhP 10.00) due and an automatic 30-minute extension of time limit to the USER.
+   6. Any USER with unpaid dues incurred from violations shall not be able to avail future bicycle-sharing services until all his or her dues are settled.
+3. WAIVER AND/OR LIMITATION OF LIABILITY
+USER forever releases and discharges CYCLING MAROONS from any and all claims, liability, cause/s of damages, including for personal injury, property damage, wrongful death, and injury to third parties, which result from or relate to the maintenance and operation of this bicycle-sharing system.
+4. ACCEPTANCE OF RESPONSIBILITY AND ASSUMPTION OF RISKS
+1. USER expressly acknowledges and accepts that USER rides at his or her own risk, and is exercising his or her own free choice to participate voluntarily in this activity.
+2. USER promises to take due care during operation of the bicycle. USER shall obey all traffic rules and regulations, ride sensibly and with consideration for other drivers, and understand that these precautions do not necessarily eliminate risk of injury of USER or any third parties in the event of an accident.
+5. DATA PRIVACY ACT OF 2012
+In accordance with the Data Privacy Act of 2012, I consent to CYCLING MAROONS collecting, storing, and using my personal information for the purposes of being a registered user in the bicycle-sharing system. I understand that my information will only be used for the purposes stated above and will not be used for any other means.
+6. ACCEPTANCE OF AGREEMENT
+USER expressly acknowledges that he or she has carefully read and understood the Agreement of the CYCLING MAROONS’ bicycle-sharing system. USER voluntarily gives his or her consent and expressly agrees to all the conditions included in this Agreement as set forth above.
+________________
+
+
+
+
+Appendix C: Tentative List of POIs within the UPD campus
+Listed below are the tentative POIs within the stipulated UPD campus bounds.19, 20, 21
+* Buildings with GEs, PEs
+College of Arts and Letters, College of Fine Arts, College of Human Kinetics, Institute of Mathematics, Lagmay Hall, Melchor Hall, Palma Hall, School of Archaeology, School of Economics, School of Statistics
+* Canteens and eating areas
+Antas, Area 2, College of Home Economics Tea Room, College of Science Library Canteen, Fernandez Street Kiosks, Gyud Food, Institute of Biology Canteen, Institute of Chemistry - Teaching Building Canteen, Institute of Civil Engineering Canteen, Institute of Mathematics Canteen/Kiosk, Kamia Residence Hall Eatery, Melchor Hall Canteen, National College of Public Administration and Governance Canteen, National Institute of Geological Sciences Cafe/Canteen, National Institute of Molecular Biology and Biotechnology Canteen, National Institute of Physics Canteen/Cafe, National Institute for Science and Mathematics Education Development Canteen, Palma Hall Kiosks, School of Economics Canteen, School of Statistics Canteen, University Food Service Canteen/Cafe, University Hotel Cafe - What About Coffee?, University of the Philippines Integrated School Kiosk, Vinzons Hall Kiosks
+* Dormitories
+Acacia Residence Hall, Centennial Residence Hall, Ilang-Ilang Residence Hall, Ipil Residence Hall, Kalayaan Residence Hall, Kamagong Residence Hall, Kamia Residence Hall, Molave Residence Hall, Sampaguita Residence Hall, Sanggumay Residence Hall
+* Jeepney waiting areas
+Area 2, College of Science Library, Kamia Residence Hall, National Institute of Geological Sciences, Sampaguita Residence Hall, University Health Service, UP Integrated School, P. Velasquez St., Vinzons Hall, Ylanan St.
+* Libraries
+Asian Center Library, College of Architecture Library, College Of Arts And Letters Library, College of Education Library, College of Engineering Library, College of Fine Arts Library, College of Home Economics Library, College of Human Kinetics Library, College of Mass Communication Library, College of Music Library, College of Science Library, College of Law Library, College of Social Sciences and Philosophy, College of Social Work and Community Development, Institute of Biology Library, Institute of Chemistry Library, Institute of Environmental Science and Meteorology Library, Institute of Islamic Studies Library, Institute of Mathematics Library, Marine Science Institute Library, National College of Public Administration and Governance Library, National Institute for Science and Mathematics Education Development Library, National Institute of Geological Sciences Library, National Institute of Molecular Biology and Biotechnology Library, National Institute of Physics Library, Natural Sciences Research Institute Library, Materials Science Engineering Program Library, Population Institute Library, School of Economics Library, University Library, School of Labor and Industrial Relations Library, School of Statistics Library, School of Urban and Regional Planning Library, UP School of Archaeology Library, Virata School of Business Library
+* Tambayans
+Electrical and Electronics Engineering Institute, Institute of Biology, Institute of Mathematics, Institute of Tourism, Melchor Hall, PAGASA Astronomical Observatory Complex, National College of Public Administration and Governance Student Pavilion Complex, Palma Hall, Plaridel Hall, School of Economics Building, School of Library and Information Studies, Vinzons Tambayan Complex, Virata School of Business
+
+
+________________
+
+
+
+
+Appendix D: UPD Campus Map
+The project team primarily used the map below for reference.21
