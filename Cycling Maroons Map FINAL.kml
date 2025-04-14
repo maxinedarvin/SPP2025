@@ -1,0 +1,2627 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Cycling Maroons Map FINAL</name>
+    <description/>
+    <Style id="icon-1899-0288D1-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-0288D1-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-0288D1-labelson-nodesc">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1899-0288D1-nodesc-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1899-0288D1-nodesc-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1899-0288D1-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-0288D1-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-0288D1-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Libraries</name>
+      <Placemark>
+        <name>College Of Science Library</name>
+        <styleUrl>#icon-1899-0288D1-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.069237,14.649275,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>UP Institute of Chemistry Library</name>
+        <styleUrl>#icon-1899-0288D1-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.073354,14.65003,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Institute of Environmental Science and Meteorology Library</name>
+        <styleUrl>#icon-1899-0288D1-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.070238,14.648248,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Institute of Mathematics Library</name>
+        <styleUrl>#icon-1899-0288D1-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.072072,14.64855,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Marine Science Institute Library</name>
+        <styleUrl>#icon-1899-0288D1-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.068936,14.650641,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>National Institute of Geological Sciences Library</name>
+        <styleUrl>#icon-1899-0288D1-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.06948,14.64829,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>National Institute of Molecular Biology and Biotechnology Library</name>
+        <styleUrl>#icon-1899-0288D1-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.071686,14.65084,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>National Institute of Physics Library</name>
+        <styleUrl>#icon-1899-0288D1-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.073369,14.649256,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Natural Sciences Research Institute Library</name>
+        <styleUrl>#icon-1899-0288D1-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.069001,14.652182,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Materials Science Engineering Program Library</name>
+        <styleUrl>#icon-1899-0288D1-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.069479,14.649371,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>College of Engineering Library I</name>
+        <styleUrl>#icon-1899-0288D1-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.069718,14.656658,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>College of Engineering Library II</name>
+        <styleUrl>#icon-1899-0288D1-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.068531,14.648624,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>University Library (Temporary Location) UP Diliman</name>
+        <styleUrl>#icon-1899-0288D1-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.065681,14.64923,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Population Institute Library</name>
+        <styleUrl>#icon-1899-0288D1-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.069024,14.653325,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>School of Economics Library</name>
+        <styleUrl>#icon-1899-0288D1-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.073104,14.656072,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>College of Education Library</name>
+        <styleUrl>#icon-1899-0288D1-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.07214,14.65355,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>National Institute for Science and Mathematics Education Development Library</name>
+        <styleUrl>#icon-1899-0288D1-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.067587,14.651676,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>College of Law Library</name>
+        <styleUrl>#icon-1899-0288D1-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.072089,14.656712,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Asian Center Library</name>
+        <styleUrl>#icon-1899-0288D1-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.073704,14.657108,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>School of Urban and Regional Planning (SURP) Library</name>
+        <styleUrl>#icon-1899-0288D1-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.062742,14.656912,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>School of Statistics Library</name>
+        <styleUrl>#icon-1899-0288D1-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.067212,14.651169,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>National College of Public Administration and Governance (NCPAG) Library</name>
+        <styleUrl>#icon-1899-0288D1-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.060454,14.656347,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>College of Music Library</name>
+        <styleUrl>#icon-1899-0288D1-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.065228,14.65695,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>College of Mass Communication Library</name>
+        <styleUrl>#icon-1899-0288D1-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.064501,14.656889,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>School of Labor and Industrial Relations (SOLAIR) Library</name>
+        <styleUrl>#icon-1899-0288D1-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.06195,14.657073,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>College of Human Kinetics Library</name>
+        <styleUrl>#icon-1899-0288D1-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.06169,14.658128,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>College of Home Economics Library</name>
+        <styleUrl>#icon-1899-0288D1-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.072986,14.652091,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>College of Fine Arts Library</name>
+        <styleUrl>#icon-1899-0288D1-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.061501,14.652541,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>College of Arts and Letters Library</name>
+        <styleUrl>#icon-1899-0288D1-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.067468,14.652789,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>College of Architecture Library</name>
+        <styleUrl>#icon-1899-0288D1-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.065154,14.651467,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>UP School of Archaeology</name>
+        <styleUrl>#icon-1899-0288D1-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.06373,14.652608,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>College of Social Work and Community Development Library</name>
+        <styleUrl>#icon-1899-0288D1-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.063859,14.657357,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>School of Library and Information Studies Library</name>
+        <styleUrl>#icon-1899-0288D1-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.069453,14.649405,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>College of Social Sciences and Philosophy Library</name>
+        <styleUrl>#icon-1899-0288D1-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.069762,14.65333,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Institute of Biology Library</name>
+        <styleUrl>#icon-1899-0288D1-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.0706848,14.6507614,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ceasar E.A. Virata School of Business Library</name>
+        <styleUrl>#icon-1899-0288D1-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.0735255,14.6552312,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>School of Urban and Regional Planning Library</name>
+        <styleUrl>#icon-1899-0288D1-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.0629046,14.6572814,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Canteens</name>
+      <Placemark>
+        <name>National Institute of Physics Canteen/Cafe</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v62R9DuBZjsrdPouiy8_y_Hh8kxahr0bX8eCNMZlezEY0dc2CpZDzG_qCfH3003iGrV66jpWKDQ0l1Xa-XCowHo8NiFPTOwZPvkslVep4MsaZGbH3x7gpH2SJX5y8FV-v4e41gF6UWbVAau31tPomnYInyau8RsPIFqbiXi4I3aFDc1W1EqRTWkUKNbv_3tXGje-MwlbfX6EBEmhZSBusR5_ywfiYiKG01CaIlGDAMNj0RkWd_1AeQyGW8W8BlyazMGZxCN1FavolPGOgfUKYytKPWcnihA4K0gnVTK7seRT2_8uRjqEsJd_AxoYLT6XK-yezFujKKpt7b4L2uryv1ZpIA8QSBvd3fRyrVDJZA8lbs89F4F7aL1hlCSRnwl1oDtRGu9FA1kME4zhVoEh85RQYTEMP78OQ-Q5kCvU7MEBlhM1xml4qG9llg0PdEHPfTg9TnNzmbcBKURIU6w3XN4JMJzAoJ2WFBhjFYYZ1G5fHc2mw2xopvm1pV7bF-eLPFmBdiu5cR1ngatd3iz4MaGngF8141iZ9EfjLK6V_ht6-33O1ft5X2v98AYB5UrBkmG9BWC4ZCL0vLuN8WYVWdVi5uTxmP2dPIrNQ0xnEfHH0qur1rp3xIDDSv5k56ivGe7ecpr1IX-JbgKRoXTaLKMeq8iDF5is3nAq3-cSuU2Qv8xl-e4ie3tPn2JqEA88K6rJUhGDuQMI6HEksfNP5BO18xQ" height="200" width="auto" /><br><br><br><br><img src="https://lh3.googleusercontent.com/umsh/AN6v0v6fBFY1amn2SMWVJPK3w_PDOCCL9Gu41Ivqm4HcfzsZC6qgoa1h5LotfmdxUakpxrN8C_mQF6Abx5rb07LkqpmSGd1YtCMCD5w75AGJ0Q0ddqAD77jRTwFGiFOPB1wyK0AYqAtHQnVoZxtnuXHJsKzTI3W1djQmom1ldfExcKEXfLs9JQLEeZ9J1377WCVFKMmJjFBh3MZ878Z8936GJSi4EijnPpBOljm8jp0r3JBzQioUkG-ld2IEWvJmMzXAIvOvsYxJIklFXP0LEpmKaTIwFS_hfFjqe6lhpdkpL4x7irkZUaJ2CxZnaHklRNqQtgw8tBU6lUM0PSIFfvW0FHrxcwKHbOxhMpCtVy-xfTQpXldJXoQJfoaD6btU4G3ET1ktR7PLTTu266PVTEN6xIGThzzcPXBHXcgfsYusQ-nDqb-NjLclZ7foZOooB5K7R1yT_7sbcMC31gQ1bvJpmgc2PNMBLp0CEWrWnYvp2oIMVlvfvsj7ZQ9y_AMp53fAf30HLHkY7j6heOpICdum5bK1HLRmDB5E6V5jtM5R3---Z9P0og7vtLcnQCU0FlB8FrtadvvNkWyp14bwBuPH6w0Ob7Z1LbDK1xPvHbce1MFDXZUmwKoH7ztRIz8Mdd9kbVYAGAFOGChHW0KTAB1G8N9DvuXGMyfMTXTBEnRB5ZTTtlfm_1m6tMDF8tdwLlPANCufoui80928BniOWVme-vBtwfIP" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/AN6v0v62R9DuBZjsrdPouiy8_y_Hh8kxahr0bX8eCNMZlezEY0dc2CpZDzG_qCfH3003iGrV66jpWKDQ0l1Xa-XCowHo8NiFPTOwZPvkslVep4MsaZGbH3x7gpH2SJX5y8FV-v4e41gF6UWbVAau31tPomnYInyau8RsPIFqbiXi4I3aFDc1W1EqRTWkUKNbv_3tXGje-MwlbfX6EBEmhZSBusR5_ywfiYiKG01CaIlGDAMNj0RkWd_1AeQyGW8W8BlyazMGZxCN1FavolPGOgfUKYytKPWcnihA4K0gnVTK7seRT2_8uRjqEsJd_AxoYLT6XK-yezFujKKpt7b4L2uryv1ZpIA8QSBvd3fRyrVDJZA8lbs89F4F7aL1hlCSRnwl1oDtRGu9FA1kME4zhVoEh85RQYTEMP78OQ-Q5kCvU7MEBlhM1xml4qG9llg0PdEHPfTg9TnNzmbcBKURIU6w3XN4JMJzAoJ2WFBhjFYYZ1G5fHc2mw2xopvm1pV7bF-eLPFmBdiu5cR1ngatd3iz4MaGngF8141iZ9EfjLK6V_ht6-33O1ft5X2v98AYB5UrBkmG9BWC4ZCL0vLuN8WYVWdVi5uTxmP2dPIrNQ0xnEfHH0qur1rp3xIDDSv5k56ivGe7ecpr1IX-JbgKRoXTaLKMeq8iDF5is3nAq3-cSuU2Qv8xl-e4ie3tPn2JqEA88K6rJUhGDuQMI6HEksfNP5BO18xQ https://lh3.googleusercontent.com/umsh/AN6v0v6fBFY1amn2SMWVJPK3w_PDOCCL9Gu41Ivqm4HcfzsZC6qgoa1h5LotfmdxUakpxrN8C_mQF6Abx5rb07LkqpmSGd1YtCMCD5w75AGJ0Q0ddqAD77jRTwFGiFOPB1wyK0AYqAtHQnVoZxtnuXHJsKzTI3W1djQmom1ldfExcKEXfLs9JQLEeZ9J1377WCVFKMmJjFBh3MZ878Z8936GJSi4EijnPpBOljm8jp0r3JBzQioUkG-ld2IEWvJmMzXAIvOvsYxJIklFXP0LEpmKaTIwFS_hfFjqe6lhpdkpL4x7irkZUaJ2CxZnaHklRNqQtgw8tBU6lUM0PSIFfvW0FHrxcwKHbOxhMpCtVy-xfTQpXldJXoQJfoaD6btU4G3ET1ktR7PLTTu266PVTEN6xIGThzzcPXBHXcgfsYusQ-nDqb-NjLclZ7foZOooB5K7R1yT_7sbcMC31gQ1bvJpmgc2PNMBLp0CEWrWnYvp2oIMVlvfvsj7ZQ9y_AMp53fAf30HLHkY7j6heOpICdum5bK1HLRmDB5E6V5jtM5R3---Z9P0og7vtLcnQCU0FlB8FrtadvvNkWyp14bwBuPH6w0Ob7Z1LbDK1xPvHbce1MFDXZUmwKoH7ztRIz8Mdd9kbVYAGAFOGChHW0KTAB1G8N9DvuXGMyfMTXTBEnRB5ZTTtlfm_1m6tMDF8tdwLlPANCufoui80928BniOWVme-vBtwfIP</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            121.072941,14.649279,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Institute of Chemistry - Teaching Building Canteen</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v7vi0ncHFYhzL5Uju8lSR7pFFvdxEIvIAgSJwh9D95Gg3ckyWyEQ9PYBQxlv6qT9vToOaUhwX_Fwxi1fOb2WvwIIULHKrTEzdW6dE1A7wauFtrRbD8dKopYjGHNi8YLjx9GhCoMjlngvvU6EVKoLWnviAJyx2UFJD29PP7aRGIVcJgHrGNSsIirXu93fJ8haNjA_776MLPOmiEn_Fm8dib2v1fTkwkCzMRlupAFmUvF8fW-MAiKds-ukx1zxcWQ5G4n3faZ8TSxR-tkB8kdAqWZAmHSyYoUCKmusFcAkdJGeAwTY-IF0YcskbjL8k3RFoSecW1VJh96sGoI3LaCkLHqtp-dMcKXiWHPGdfzmfe6DJCjrrEpxx21HaGD1Fa7F0ieN14wBqfZFA7qMh1_gckG0I_RVcn0HyZP5pVRhtU2rIbOiqDTlTCJ73LVCu_zGvZ6apXy8PAMVlT_iV9u_c6F0s5e7wi7i-_L39L_NE7HdBQpDbPgsyFK0937nGyWEToXlGpy_Oyrql8fYSai52rh4Ii28bvGS4IHCDXlZQlk7l3n6PXK2KplZ2I9NfklrQlgYUG1aQ5pcfvFB20O4I83k2fDOC_NC0cw0dn6dN3ANlKAj7IYX8yg4nZyid3Ocojtfad6XR8GQLRrRwoZ-XJWjf63k7icAIFOLN4-5IC9XQaPUPsQKXZ1Raz1elWa9cM2EXpftYY4D39rTGeRycUcJmaS" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/AN6v0v7vi0ncHFYhzL5Uju8lSR7pFFvdxEIvIAgSJwh9D95Gg3ckyWyEQ9PYBQxlv6qT9vToOaUhwX_Fwxi1fOb2WvwIIULHKrTEzdW6dE1A7wauFtrRbD8dKopYjGHNi8YLjx9GhCoMjlngvvU6EVKoLWnviAJyx2UFJD29PP7aRGIVcJgHrGNSsIirXu93fJ8haNjA_776MLPOmiEn_Fm8dib2v1fTkwkCzMRlupAFmUvF8fW-MAiKds-ukx1zxcWQ5G4n3faZ8TSxR-tkB8kdAqWZAmHSyYoUCKmusFcAkdJGeAwTY-IF0YcskbjL8k3RFoSecW1VJh96sGoI3LaCkLHqtp-dMcKXiWHPGdfzmfe6DJCjrrEpxx21HaGD1Fa7F0ieN14wBqfZFA7qMh1_gckG0I_RVcn0HyZP5pVRhtU2rIbOiqDTlTCJ73LVCu_zGvZ6apXy8PAMVlT_iV9u_c6F0s5e7wi7i-_L39L_NE7HdBQpDbPgsyFK0937nGyWEToXlGpy_Oyrql8fYSai52rh4Ii28bvGS4IHCDXlZQlk7l3n6PXK2KplZ2I9NfklrQlgYUG1aQ5pcfvFB20O4I83k2fDOC_NC0cw0dn6dN3ANlKAj7IYX8yg4nZyid3Ocojtfad6XR8GQLRrRwoZ-XJWjf63k7icAIFOLN4-5IC9XQaPUPsQKXZ1Raz1elWa9cM2EXpftYY4D39rTGeRycUcJmaS</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            121.073142,14.650015,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>National Institute of Molecular Biology and Biotechnology Canteen</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v7QdcrBEKgbeX29dTcwhWHGi7ydAYBFpuLH9Xk9hKMDzKN7xFmm09-pDTXD7f1NnIy74XM2pxfh022Pq22nwievRIIZ4l4RUv5sb_u66tj2sLS5Baww4eLFy8XOBbUiNG07mlqVVvp_DvYOOmmV1SYCqnDJ6DFimZRTLO7s74pa7Ls3Yw_V2pVqFzT6kAYmlAOdMh2LC5ZuVwJcy9XApsWdKaCiXpA-aGaZHLqLiJXAFTT13Mpu-9Ilo76Jw-cNbdLlGZB2Ozh8oySbKRN-6cp98TpW0VzoCwdiZMjVUc0mypkwgaUpDDYUiIaBo4MAdGdJ9bdMdfA1f4Nw8GzCWEk6amn3684cWwJe2Mb55029yyPhoNj8I-RkgFzTc1nS_f5RnjRuB6luGZiRhuWxQ4rocKoa1bRFNZaUy3W2WzKddI0xKDMKmrNzuxXT1TYrduOFctvkIYHiLozoFzr1KhJ3QfQvaqFOKRzmefidOnZMIKmYUv8wwU8BLUWwFVoIUdSqWuXuB9yM1SMsVfFRxmuVACEjHgh8Z7clRQMe6RcGc8eBm-zvjm43mHCTbiHbhudjNJgQrRK2w9Oudie0c-HDviYFaF70hvoP2g_q2IidE5N4Y5QTkwct_5hF-k1SwYh5yM-sOsm8bRIFM8vByjayt5gFkYacLoLhJjMVQiAdX6CfHAeItARIcdRP13pBB420y4BCNSPbD4rX48gvCw3Xog82yQ" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/AN6v0v7QdcrBEKgbeX29dTcwhWHGi7ydAYBFpuLH9Xk9hKMDzKN7xFmm09-pDTXD7f1NnIy74XM2pxfh022Pq22nwievRIIZ4l4RUv5sb_u66tj2sLS5Baww4eLFy8XOBbUiNG07mlqVVvp_DvYOOmmV1SYCqnDJ6DFimZRTLO7s74pa7Ls3Yw_V2pVqFzT6kAYmlAOdMh2LC5ZuVwJcy9XApsWdKaCiXpA-aGaZHLqLiJXAFTT13Mpu-9Ilo76Jw-cNbdLlGZB2Ozh8oySbKRN-6cp98TpW0VzoCwdiZMjVUc0mypkwgaUpDDYUiIaBo4MAdGdJ9bdMdfA1f4Nw8GzCWEk6amn3684cWwJe2Mb55029yyPhoNj8I-RkgFzTc1nS_f5RnjRuB6luGZiRhuWxQ4rocKoa1bRFNZaUy3W2WzKddI0xKDMKmrNzuxXT1TYrduOFctvkIYHiLozoFzr1KhJ3QfQvaqFOKRzmefidOnZMIKmYUv8wwU8BLUWwFVoIUdSqWuXuB9yM1SMsVfFRxmuVACEjHgh8Z7clRQMe6RcGc8eBm-zvjm43mHCTbiHbhudjNJgQrRK2w9Oudie0c-HDviYFaF70hvoP2g_q2IidE5N4Y5QTkwct_5hF-k1SwYh5yM-sOsm8bRIFM8vByjayt5gFkYacLoLhJjMVQiAdX6CfHAeItARIcdRP13pBB420y4BCNSPbD4rX48gvCw3Xog82yQ</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            121.071331,14.650702,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Institute of Biology Canteen</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v5b6c35j_ckmGe86rRoDKpn7-mLu6WBEb5-tyKlXpyuKy3rVE5ZxMTJg2tBfMzBQLNrUmn4XRwhfsNf4IbDIhWBUGj9u93RQOXD20-uhayPQjitwaD2MG6p44lbhRAupZCC8koKQmkzLZKU_y3LMPSvf_gZfXPWiBaEwixFxVE-La5ALoxnsp4Hf6OEkOO-op7NmXF3LnGl62COROP61nBcZVvoO0mdgG0Yio-sKG3GLYqtiPdC7IKg9bzpKTMotjGzLdlGNCjZjJy1Mf1_lsHhI053PSLmhs3jOwug_bEYO6KIeE3aavmq8dCcf9pKUZJPgKaCsRlToOKCVAdIOd3Vy8ahUmzKp6oDTjquoq_-IwA-mzFZBhmfGSruKZohNWoweXk5HAfITZaa-F92KYRfSZMl1eC1kk1Med5SKByLlDmR-_JooDhDMSSTwISL-BDgVZ0RNR_viKQp_hJPRFvu6ATy5VAtxDcN-G4W50rWEEdJzkN8fmMQAgOKdVW88UvWkkyHdHw8c2TlVCY0W_kVR2wX2lUSTKTvlfeqc3e7SjGQblvSly0x2ICjFI9895DbGrgfGP_2r4M6nw-KmVWx9SVtYMQR0wriPGtxOxTBvP_mz8nQ6OWORaOzOXG_wf7hnuCyr1dnfrOQguahnOhZl65RtutwHxTu4DrUghR-Il25PooQvA4pYXIDvY5WVqn5TB8SU1Hgt5PCEdIePHsi5LsF1w" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/AN6v0v5b6c35j_ckmGe86rRoDKpn7-mLu6WBEb5-tyKlXpyuKy3rVE5ZxMTJg2tBfMzBQLNrUmn4XRwhfsNf4IbDIhWBUGj9u93RQOXD20-uhayPQjitwaD2MG6p44lbhRAupZCC8koKQmkzLZKU_y3LMPSvf_gZfXPWiBaEwixFxVE-La5ALoxnsp4Hf6OEkOO-op7NmXF3LnGl62COROP61nBcZVvoO0mdgG0Yio-sKG3GLYqtiPdC7IKg9bzpKTMotjGzLdlGNCjZjJy1Mf1_lsHhI053PSLmhs3jOwug_bEYO6KIeE3aavmq8dCcf9pKUZJPgKaCsRlToOKCVAdIOd3Vy8ahUmzKp6oDTjquoq_-IwA-mzFZBhmfGSruKZohNWoweXk5HAfITZaa-F92KYRfSZMl1eC1kk1Med5SKByLlDmR-_JooDhDMSSTwISL-BDgVZ0RNR_viKQp_hJPRFvu6ATy5VAtxDcN-G4W50rWEEdJzkN8fmMQAgOKdVW88UvWkkyHdHw8c2TlVCY0W_kVR2wX2lUSTKTvlfeqc3e7SjGQblvSly0x2ICjFI9895DbGrgfGP_2r4M6nw-KmVWx9SVtYMQR0wriPGtxOxTBvP_mz8nQ6OWORaOzOXG_wf7hnuCyr1dnfrOQguahnOhZl65RtutwHxTu4DrUghR-Il25PooQvA4pYXIDvY5WVqn5TB8SU1Hgt5PCEdIePHsi5LsF1w</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            121.070588,14.650775,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>National Institute of Geological Sciences Cafe/Canteen</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v69NN_XO5Ad6NNnpK-nTRbtvQ1faessrzfe01i6TYo0lhzz_CUZFmcE4lS9W2-6yOwiaqqdutrX-YtDWPSBr_BVo0JZR5SZ286f-NrlISOuO_X2Ms-JPO3YbhJVU_Ri8WWiFd3lbDAU0TW2-f6leBBwVHjzAme21sVA9uzn5dmyDH9YfSrevfIB71v2U8XIvt9LQBb4ZyGjt5v-GRSrn48pFAxLReN5u6gIkHMEMnqdxYWXai2ag7Hrg3xpATpdBbLVrtJTv4ZII8TPEqwzlxAnrSkXbTOOoT8xHbM42tNbx7rBH31hKcDJvEIXYAB8RzKUIJWc71Di_0XIZHGcTB2Bz1jAXHRfzeryvquxAOV8DVXzT4QxAk_ke-OqFkeSnNyLObwxdt640jmBhV0S_yjfIdFSeoBryka_emMkX3ZzS5qlDlSYOzo0h5BFP_CQM9c-cZSQYMAxdkV9aWXUZHaQ3px-a_xO3rKzBJw8Es_P5nY3j039nwli2qzpfDdiDyZgZrTILX2KkrkZlgmgPTlsQxV9friGLfSH8Hz0TVuR_vgQT5IPs1L6i02jE6esNCFjZvHRdg3-2ttSduZtp-DD0UFOA0tDE_GD2Wts4M_40o9lLZ3rUVpsv5Jvdhw6AhshCrPHGHv9DdgmP40dQpyt2Z-EiG9SAAFuPLUmIwkBc2rM9wNEvCjsg07BtfhswWRux3lVU9acQcH61i6rM3-TD5Zz" height="200" width="auto" /><br><br><br><br><img src="https://lh3.googleusercontent.com/umsh/AN6v0v4f-b-wPohqISwRnk9V-mFHWm78kcgD2GB0FBKG2UmiZoTWC2Lg_4ZLnWVfP0t7Rx0SQOlfaJuxllhpJB3hSTXyqaPjZOczleqMNqBjQjBrM5bRO5zDowSMBZLkNDN7Xj7k_cgv-17hFo4390FJS_h9Gbz7kOJB8ojlY8meFBoBh_CGLD3LWVQHLZSmz-1WrPIiAvCoR8E9EHrRpIP9RPEU9hiBagtb5t2CE1lO3y7k6f7Cesbxo5u4OD3yCF6qF_xdkpMtilrI4zJZUPJgkgMlhWstuHXg0F8n1qNssPmZYX08dBKbusw4PkgwYw0No-JOi9LN7luFt_W2YanXvmWLSGeTm5tZLWJnHo39HbZra1PqFEbXuONcFrPy2sy9B42CZL6_8KRw2ns1z6jZa0nyMTJWpJoswSxG1a3rG2ZSvbSz7sWw-X-tUwr-ijcPnr9fBsfmFWcQbdc0q9nF49x6DOyQU7RJClxIFvls-4msG61BGEv80CVS-R_HIrwNJUmyWRaIzaYgmsJeCGTJJImJUDglsiHf6qzlTpHZpD8OjyU1DYN1OIPQU6J6GBe5lbxUftKdKWY9C0KQxzcDYCI9ryAqpqlZ_1P_pEStL9ET0NwSbicY9MJ14FhhwmbyNMW9eh8b2QzL8KMccLqd6Cn7EeFYHavljH77VCGpN2K8wq-orKKFpnx0-7fZapmrb_3kYZp0wo-h5gzvVJD6CzGyK2_Uwg" height="200" width="auto" /><br><br><img src="https://lh3.googleusercontent.com/umsh/AN6v0v4FkG0hxiMDtBU-S-xbN-SyazLJpbbsiUfkaDyyNNKoeVJrK1dR8NktX31Zmw3OITHdT_ArhucDVlAhhl0T8diSmjgJr9VSm6DJthCjS-zlc-SWQsRE_EYpFBf0_2CRp2Ad7F6_R8x1ir9Av2FsjIzq7O7E_ZJ2y0hRu1nS31GSLpg--eLj6PRUb2HTxxYLuuiYdZzTXr0WNvza8EYZiIKEAy6TlWzZvsILyC4hbw1hDd-wUi5hiUB_WloUS1191qs3mrIdPgG-aXJuv_rl7TRqnww__rBj-IZMp5Cc5Mk98DzuX9h549A0YpvkGYvD_XMEM8kqE_W28VKniKMcw4snFVmAqy6yuNbYiZlnuPWgrQVPGyZONuIgp1mof9PUQIIBjJfKxteeu1BXvolBsmqU8YiZoec25LSxUUfID2UUOL9u1XzRgQiehfjb0kiSmAkFVE1NjxrEVrUppDUxs4PUGPFwXgCvvrV4q1WvyJzMbHU6v8oOG2yHwY_5M1BQtNQ8C-CwQrS0I8CPAId-asaZQ6a0gM1DKoHdjG29yNHZjSwE1cZGGmrF0ITkPFFAaSpggxPZQaluLvUqmN_8ACQbxzxTkMtZcVdVqdubq7HlsBa3db1X0CQr5w8wQJaa5hEVCb7XvZfvLYWEfwhcqZg4oZ-MREDxZOR0vlwynNnLA7jNPICNN155iN9pRG6--COTP5EOhvHDPE-c59_UuaHSA5MrGw" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/AN6v0v69NN_XO5Ad6NNnpK-nTRbtvQ1faessrzfe01i6TYo0lhzz_CUZFmcE4lS9W2-6yOwiaqqdutrX-YtDWPSBr_BVo0JZR5SZ286f-NrlISOuO_X2Ms-JPO3YbhJVU_Ri8WWiFd3lbDAU0TW2-f6leBBwVHjzAme21sVA9uzn5dmyDH9YfSrevfIB71v2U8XIvt9LQBb4ZyGjt5v-GRSrn48pFAxLReN5u6gIkHMEMnqdxYWXai2ag7Hrg3xpATpdBbLVrtJTv4ZII8TPEqwzlxAnrSkXbTOOoT8xHbM42tNbx7rBH31hKcDJvEIXYAB8RzKUIJWc71Di_0XIZHGcTB2Bz1jAXHRfzeryvquxAOV8DVXzT4QxAk_ke-OqFkeSnNyLObwxdt640jmBhV0S_yjfIdFSeoBryka_emMkX3ZzS5qlDlSYOzo0h5BFP_CQM9c-cZSQYMAxdkV9aWXUZHaQ3px-a_xO3rKzBJw8Es_P5nY3j039nwli2qzpfDdiDyZgZrTILX2KkrkZlgmgPTlsQxV9friGLfSH8Hz0TVuR_vgQT5IPs1L6i02jE6esNCFjZvHRdg3-2ttSduZtp-DD0UFOA0tDE_GD2Wts4M_40o9lLZ3rUVpsv5Jvdhw6AhshCrPHGHv9DdgmP40dQpyt2Z-EiG9SAAFuPLUmIwkBc2rM9wNEvCjsg07BtfhswWRux3lVU9acQcH61i6rM3-TD5Zz https://lh3.googleusercontent.com/umsh/AN6v0v4f-b-wPohqISwRnk9V-mFHWm78kcgD2GB0FBKG2UmiZoTWC2Lg_4ZLnWVfP0t7Rx0SQOlfaJuxllhpJB3hSTXyqaPjZOczleqMNqBjQjBrM5bRO5zDowSMBZLkNDN7Xj7k_cgv-17hFo4390FJS_h9Gbz7kOJB8ojlY8meFBoBh_CGLD3LWVQHLZSmz-1WrPIiAvCoR8E9EHrRpIP9RPEU9hiBagtb5t2CE1lO3y7k6f7Cesbxo5u4OD3yCF6qF_xdkpMtilrI4zJZUPJgkgMlhWstuHXg0F8n1qNssPmZYX08dBKbusw4PkgwYw0No-JOi9LN7luFt_W2YanXvmWLSGeTm5tZLWJnHo39HbZra1PqFEbXuONcFrPy2sy9B42CZL6_8KRw2ns1z6jZa0nyMTJWpJoswSxG1a3rG2ZSvbSz7sWw-X-tUwr-ijcPnr9fBsfmFWcQbdc0q9nF49x6DOyQU7RJClxIFvls-4msG61BGEv80CVS-R_HIrwNJUmyWRaIzaYgmsJeCGTJJImJUDglsiHf6qzlTpHZpD8OjyU1DYN1OIPQU6J6GBe5lbxUftKdKWY9C0KQxzcDYCI9ryAqpqlZ_1P_pEStL9ET0NwSbicY9MJ14FhhwmbyNMW9eh8b2QzL8KMccLqd6Cn7EeFYHavljH77VCGpN2K8wq-orKKFpnx0-7fZapmrb_3kYZp0wo-h5gzvVJD6CzGyK2_Uwg https://lh3.googleusercontent.com/umsh/AN6v0v4FkG0hxiMDtBU-S-xbN-SyazLJpbbsiUfkaDyyNNKoeVJrK1dR8NktX31Zmw3OITHdT_ArhucDVlAhhl0T8diSmjgJr9VSm6DJthCjS-zlc-SWQsRE_EYpFBf0_2CRp2Ad7F6_R8x1ir9Av2FsjIzq7O7E_ZJ2y0hRu1nS31GSLpg--eLj6PRUb2HTxxYLuuiYdZzTXr0WNvza8EYZiIKEAy6TlWzZvsILyC4hbw1hDd-wUi5hiUB_WloUS1191qs3mrIdPgG-aXJuv_rl7TRqnww__rBj-IZMp5Cc5Mk98DzuX9h549A0YpvkGYvD_XMEM8kqE_W28VKniKMcw4snFVmAqy6yuNbYiZlnuPWgrQVPGyZONuIgp1mof9PUQIIBjJfKxteeu1BXvolBsmqU8YiZoec25LSxUUfID2UUOL9u1XzRgQiehfjb0kiSmAkFVE1NjxrEVrUppDUxs4PUGPFwXgCvvrV4q1WvyJzMbHU6v8oOG2yHwY_5M1BQtNQ8C-CwQrS0I8CPAId-asaZQ6a0gM1DKoHdjG29yNHZjSwE1cZGGmrF0ITkPFFAaSpggxPZQaluLvUqmN_8ACQbxzxTkMtZcVdVqdubq7HlsBa3db1X0CQr5w8wQJaa5hEVCb7XvZfvLYWEfwhcqZg4oZ-MREDxZOR0vlwynNnLA7jNPICNN155iN9pRG6--COTP5EOhvHDPE-c59_UuaHSA5MrGw</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            121.069618,14.648175,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>College of Science Library Canteen</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v4IkLk6gKyCSGYqg5ltl84yBiWJ-G9u49Qm0Zd2FKjRI4o7oclcNgHyQ1ZFDlRRu3x1pZhJF3CqATg0U-4_Q9FomNNJpvQeEjSsePMD64IN9eo2Sr_58bS_NnCphiTiUnuH2VOnYYgik6pJweB7JzdocXjNzvgdgUxCkjv1xwQJ0WCZVWTxiI0jA4KTjwwLAsFybUYluunih3ORcOnjwPKwIklnMsAB3dnlFDqjHkn7uCuvrv_xkDytcKDEVFdleH--jjn_pFg_gfcdD7eCKc4pulKbZkBMlQ2Xk3o52-cOexI6B0zloMNZhiyR0lXr8Oz7ZVNKVsA1Zsk3Ubaql-oUWgv7770q4YnZb_lyzWWMoGNc6ANZSqMbpPTvBYCGK_jqZyTWDCnFdyq0xNzKAm3RzBjNOsGGB0J7_vHPUGxtqoaJA-Fy6uHFka8lfPhV9vJUA7F05eW2mucBMHWl_-vG7GysIjGcQChKn7Ql_OfO8AUhVIty09gq5bNGu-NiAXbHs4frSMH9TodMlsTcx1ZJhwZPlQ_Aj-eIoCk_H85ch1x4tgdhopn2eDkPlu5zVfpFkvcXYGFpnORVw-XJXTub6NCnSCy8N1jqO_bzFAx7cA0ux5kA3iShs_PR-vVEmWDqCpi7H9I9wK4wcm8sssxP_3KmSx2JMizDwhj-SxX-0-um69mepn9IOAA84rzS5tpXbBiBJi5vZ3hBKHH2lCYujr4Ikg" height="200" width="auto" /><br><br><br><br><img src="https://lh3.googleusercontent.com/umsh/AN6v0v4IJLzoqOGieah425xcBM7uZdCYgvRRwnSaeemlO7T_HAIdy0-9ew-RFGEWpL4LoTimwUKgwsEMxqyGpPfRAA5mse6qH0TJFLc-pqBepJfIhwuY4MNYsBSjbm4-HfUaSyG_4GEfAiIJgn4DHV8aznPSqD5uUygvHjm4mtbACOMJYiJ1CB4tJ85jB-wJcqn1fAWFfHESrQXvCCYVf1XIIjs3y5oDtolWtgUG_orvPea4JX0FsfdighIo-_Gy-NR8FlApaZhDa9Te3wH_2_W5M-kJSwEsD6RYJNATakSlxTmCiGvDXvlg3e4yZYXA0nJlC0aKfqbDpjiVdXqOzw4sH7SXgg8LkXejvv09aLVaRnWSQxlUw7lnpUP109S_BIdp61McVHs7iPlidqE6b9FHsrrIcSlUGSrUneTFZuHqQr2Cck4d3-avLB50w7Gabl88MFmStB9tDwwfSBJAWXOA5KuObVWWaVfZWVgd0dRKRljW6YGvg82HVfO7q6DOJN0_AgCEW9ak6k9f87466evuEbmN5e3F0ijmDlGkcRCnKPJZU73i79cOB-0U6bB7s-uG5I0OknTcU_3f17ukLMBHw8THX1I-9BjkZTRQWLgURfFndP54UhxiuMRd2zS_aPpTcbbTqKYszhrBe7bv4d7UBpmRxb-leDcZNIPcnVIhigniHNIMP7zk4HrkcZInG_FD_-ek-XjLDlnC_0q2TElSczvokOWdlg" height="200" width="auto" /><br><br><img src="https://lh3.googleusercontent.com/umsh/AN6v0v7PLzYXqcG5lcAHrtapYyA7RFS3N0wah-chnq_Fq9bkzUWO4hABmgOTF819KqcYMvyMmQqsqgfjTzagtV-8u4CkmJ_6lE_F6fw5g7q0q1zW5-yrkrJ1wjXA5MZEiCMUVQ5iEDt-0dagl0RLLjMmPWs4NZ0bq-cdI-5KNcuy-LIMz_wQJGzLNHPmYEFPyqLsJ8GwK1z53IQOGs9pb206wcsQPu6M3ne6vn2glf_8pxbj5RAN2Nn5RSgoPVV8HcVNA7LH5gci3Hfatff9mo8sKRSggRtJ00B2d_fokf3RIsQurmeC_OsXpBQ3nTokg-14yOjQdEiqTji6m2YHdPdxLVYHRg1DPNPW9EU7Nai7apciTsRu3IwQbParaPmd05Au9nJfaPeStIuYOdBnbjwY4LKjmd2IN0gFJNufFrtdCxCe06O-pWEK6stZmkGrqFgnoRcnT0fds3djuWjbnphYwHqaW8daJsq0oOoj3yCyxfoInZbgpSAUY_MINId-0QHLqU3qJKIM130A4bG9XkMfClTIUdymzJ_uIzZXwtNSEqlnHSnYZKhMRN0M3SUma6hkfzIHf-FmZ0p1wZQfpv5-b8g7qxDMmr-Wq7EyFzXr3pzLhLKkqAnJu7BqYoTpJSQzGzeu6VUbxFK2fH2eSnOokErGS8B6PWl0F0BX50XO6BhHx6aAX6jUph5ODdGiEvjwiM5u0bv8Wnrue2k6ZJxO47A2THBRmg" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/AN6v0v4IkLk6gKyCSGYqg5ltl84yBiWJ-G9u49Qm0Zd2FKjRI4o7oclcNgHyQ1ZFDlRRu3x1pZhJF3CqATg0U-4_Q9FomNNJpvQeEjSsePMD64IN9eo2Sr_58bS_NnCphiTiUnuH2VOnYYgik6pJweB7JzdocXjNzvgdgUxCkjv1xwQJ0WCZVWTxiI0jA4KTjwwLAsFybUYluunih3ORcOnjwPKwIklnMsAB3dnlFDqjHkn7uCuvrv_xkDytcKDEVFdleH--jjn_pFg_gfcdD7eCKc4pulKbZkBMlQ2Xk3o52-cOexI6B0zloMNZhiyR0lXr8Oz7ZVNKVsA1Zsk3Ubaql-oUWgv7770q4YnZb_lyzWWMoGNc6ANZSqMbpPTvBYCGK_jqZyTWDCnFdyq0xNzKAm3RzBjNOsGGB0J7_vHPUGxtqoaJA-Fy6uHFka8lfPhV9vJUA7F05eW2mucBMHWl_-vG7GysIjGcQChKn7Ql_OfO8AUhVIty09gq5bNGu-NiAXbHs4frSMH9TodMlsTcx1ZJhwZPlQ_Aj-eIoCk_H85ch1x4tgdhopn2eDkPlu5zVfpFkvcXYGFpnORVw-XJXTub6NCnSCy8N1jqO_bzFAx7cA0ux5kA3iShs_PR-vVEmWDqCpi7H9I9wK4wcm8sssxP_3KmSx2JMizDwhj-SxX-0-um69mepn9IOAA84rzS5tpXbBiBJi5vZ3hBKHH2lCYujr4Ikg https://lh3.googleusercontent.com/umsh/AN6v0v4IJLzoqOGieah425xcBM7uZdCYgvRRwnSaeemlO7T_HAIdy0-9ew-RFGEWpL4LoTimwUKgwsEMxqyGpPfRAA5mse6qH0TJFLc-pqBepJfIhwuY4MNYsBSjbm4-HfUaSyG_4GEfAiIJgn4DHV8aznPSqD5uUygvHjm4mtbACOMJYiJ1CB4tJ85jB-wJcqn1fAWFfHESrQXvCCYVf1XIIjs3y5oDtolWtgUG_orvPea4JX0FsfdighIo-_Gy-NR8FlApaZhDa9Te3wH_2_W5M-kJSwEsD6RYJNATakSlxTmCiGvDXvlg3e4yZYXA0nJlC0aKfqbDpjiVdXqOzw4sH7SXgg8LkXejvv09aLVaRnWSQxlUw7lnpUP109S_BIdp61McVHs7iPlidqE6b9FHsrrIcSlUGSrUneTFZuHqQr2Cck4d3-avLB50w7Gabl88MFmStB9tDwwfSBJAWXOA5KuObVWWaVfZWVgd0dRKRljW6YGvg82HVfO7q6DOJN0_AgCEW9ak6k9f87466evuEbmN5e3F0ijmDlGkcRCnKPJZU73i79cOB-0U6bB7s-uG5I0OknTcU_3f17ukLMBHw8THX1I-9BjkZTRQWLgURfFndP54UhxiuMRd2zS_aPpTcbbTqKYszhrBe7bv4d7UBpmRxb-leDcZNIPcnVIhigniHNIMP7zk4HrkcZInG_FD_-ek-XjLDlnC_0q2TElSczvokOWdlg https://lh3.googleusercontent.com/umsh/AN6v0v7PLzYXqcG5lcAHrtapYyA7RFS3N0wah-chnq_Fq9bkzUWO4hABmgOTF819KqcYMvyMmQqsqgfjTzagtV-8u4CkmJ_6lE_F6fw5g7q0q1zW5-yrkrJ1wjXA5MZEiCMUVQ5iEDt-0dagl0RLLjMmPWs4NZ0bq-cdI-5KNcuy-LIMz_wQJGzLNHPmYEFPyqLsJ8GwK1z53IQOGs9pb206wcsQPu6M3ne6vn2glf_8pxbj5RAN2Nn5RSgoPVV8HcVNA7LH5gci3Hfatff9mo8sKRSggRtJ00B2d_fokf3RIsQurmeC_OsXpBQ3nTokg-14yOjQdEiqTji6m2YHdPdxLVYHRg1DPNPW9EU7Nai7apciTsRu3IwQbParaPmd05Au9nJfaPeStIuYOdBnbjwY4LKjmd2IN0gFJNufFrtdCxCe06O-pWEK6stZmkGrqFgnoRcnT0fds3djuWjbnphYwHqaW8daJsq0oOoj3yCyxfoInZbgpSAUY_MINId-0QHLqU3qJKIM130A4bG9XkMfClTIUdymzJ_uIzZXwtNSEqlnHSnYZKhMRN0M3SUma6hkfzIHf-FmZ0p1wZQfpv5-b8g7qxDMmr-Wq7EyFzXr3pzLhLKkqAnJu7BqYoTpJSQzGzeu6VUbxFK2fH2eSnOokErGS8B6PWl0F0BX50XO6BhHx6aAX6jUph5ODdGiEvjwiM5u0bv8Wnrue2k6ZJxO47A2THBRmg</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            121.069604,14.649408,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>National Institute for Science and Mathematics Education Development Canteen</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v5uOn9tbRO899zQ8g09AriXWw3BQxfqQYw2W9DYuUThSR_Al5x6Zy0xOUKnytZVf_IHR1xjn8GCwO06IlUXz_7a_q3Ixmv20Kvm2Z7HkE12ecYrmJN69bd04GN_olvUGsUs9N6K5-xDPsVVW0wJC2X2T0AeYFGNMplsESO4AMYrw6CwkDJj3Mzbc0mgKxkLiXaRl3tIcjKLIcps6-0TAb7IoX9n-Hvf-9SAsEULXEH1hzhqGcFVJo7m9G8uOG45Nn1vPLpK9Jcdv3V63fq6kdlT2EqIa5cI4YBXse8sdNjpliBy5C7cmsmQHerf4pCB-Bu_TooF-EM1URUSYoArvbLfoIhuofGAwr13mUrcU9w3pcWyBfEBgYYUQilhofUjmLKbZZ9kwFXc_z3K2mM6kGKLnNFZZMgEJBszcNeA0vqXFGS3uy3hu4c4Iqlo3PwmE3bcnxtUUl3iBcJorPIrAuV8TDfUymS9eW5PGHdMDo5MH_z6LrM5E0ixfY9UPr-90zx_B8n9rLo9Xyane_bI4gvi0jUP6l0yTmAlgSqfjBD0FSvE09hCHtTJGjSHz-djRiwP_FUl6BUWLqjyxoH0v3W0guwb56Xfj2P5lf03R0Akf8xZJYEl4z9pbh2KhEudwGwpylG76YxO4RCJPToELNXjpjNLmJ4tSA1OPZkqybuMwKTKk402EAF2_mVEhWqfaxISJl5eU0ZlzRz_L1RyYbLGV8BMsQ" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/AN6v0v5uOn9tbRO899zQ8g09AriXWw3BQxfqQYw2W9DYuUThSR_Al5x6Zy0xOUKnytZVf_IHR1xjn8GCwO06IlUXz_7a_q3Ixmv20Kvm2Z7HkE12ecYrmJN69bd04GN_olvUGsUs9N6K5-xDPsVVW0wJC2X2T0AeYFGNMplsESO4AMYrw6CwkDJj3Mzbc0mgKxkLiXaRl3tIcjKLIcps6-0TAb7IoX9n-Hvf-9SAsEULXEH1hzhqGcFVJo7m9G8uOG45Nn1vPLpK9Jcdv3V63fq6kdlT2EqIa5cI4YBXse8sdNjpliBy5C7cmsmQHerf4pCB-Bu_TooF-EM1URUSYoArvbLfoIhuofGAwr13mUrcU9w3pcWyBfEBgYYUQilhofUjmLKbZZ9kwFXc_z3K2mM6kGKLnNFZZMgEJBszcNeA0vqXFGS3uy3hu4c4Iqlo3PwmE3bcnxtUUl3iBcJorPIrAuV8TDfUymS9eW5PGHdMDo5MH_z6LrM5E0ixfY9UPr-90zx_B8n9rLo9Xyane_bI4gvi0jUP6l0yTmAlgSqfjBD0FSvE09hCHtTJGjSHz-djRiwP_FUl6BUWLqjyxoH0v3W0guwb56Xfj2P5lf03R0Akf8xZJYEl4z9pbh2KhEudwGwpylG76YxO4RCJPToELNXjpjNLmJ4tSA1OPZkqybuMwKTKk402EAF2_mVEhWqfaxISJl5eU0ZlzRz_L1RyYbLGV8BMsQ</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            121.067888,14.651708,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Antas</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v7oQnB-D8sSeoNqMXS5Xeydh73jkosGJyfMAKKGWOTV8pJY_WFZdvpL4v9rGNqn6tHbZ81QN4fzbCTSL1jeg8UeTX7KD7SmjmRGrc0Y1xbQlO-HCTXWBkrtPctBvl_3LpvYNoq77dadBdWa9RlLguipUoYWHYpHHOyO4qS_C8AUh7CFwFIDXXY-giQaFAbiw7u-3xHHRW9QFKKC_y5OfSE40MFgsCBTPaHB-MRu2Oi9gVf_9xrbHGbmRWb5vIX_ffBLvJnDrQ5FRb69Z5heYLmyR8-3ey5CKsZ53Av1LGchI8NrVU2fQNZHspdMnsz5pGv3gp88LMZTPhIKyyW6nkG6Dc7AI_liCN5fPz6UQrYFj0DjFmfejgMbZEyk6Sbxzd89V5FfQOXNccmVEcBeITtIe7NIE5OQWLAjlRWqws0AH10GpSkjKbBL3JDEjdI8onqDr7d4IRfgDz-Px6FJaOJD6IJejNE-8uHMK49IineHNEx6hM4fg7_XC9CnAxfAitm0uRjDvXFPfk62WBY4f4vriMPgU8j4hcC1DfdGithDrmpsyeavnO45eAlyGZeot4QeWg6wcCSLv4_l_Mf-nNkr_xkgSBe5uBCmVBBN1HkiSYawrKxNkyHzdqSqWikkSxJt8MStvWpD-HqittIwUDcCnyhXZirKbpyBI4O5pMuMwbUTetHkkIA5gLUYHRvPZbXtP-ct5L-9j9S_ykkZPhaVgQ-2YA" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/AN6v0v7oQnB-D8sSeoNqMXS5Xeydh73jkosGJyfMAKKGWOTV8pJY_WFZdvpL4v9rGNqn6tHbZ81QN4fzbCTSL1jeg8UeTX7KD7SmjmRGrc0Y1xbQlO-HCTXWBkrtPctBvl_3LpvYNoq77dadBdWa9RlLguipUoYWHYpHHOyO4qS_C8AUh7CFwFIDXXY-giQaFAbiw7u-3xHHRW9QFKKC_y5OfSE40MFgsCBTPaHB-MRu2Oi9gVf_9xrbHGbmRWb5vIX_ffBLvJnDrQ5FRb69Z5heYLmyR8-3ey5CKsZ53Av1LGchI8NrVU2fQNZHspdMnsz5pGv3gp88LMZTPhIKyyW6nkG6Dc7AI_liCN5fPz6UQrYFj0DjFmfejgMbZEyk6Sbxzd89V5FfQOXNccmVEcBeITtIe7NIE5OQWLAjlRWqws0AH10GpSkjKbBL3JDEjdI8onqDr7d4IRfgDz-Px6FJaOJD6IJejNE-8uHMK49IineHNEx6hM4fg7_XC9CnAxfAitm0uRjDvXFPfk62WBY4f4vriMPgU8j4hcC1DfdGithDrmpsyeavnO45eAlyGZeot4QeWg6wcCSLv4_l_Mf-nNkr_xkgSBe5uBCmVBBN1HkiSYawrKxNkyHzdqSqWikkSxJt8MStvWpD-HqittIwUDcCnyhXZirKbpyBI4O5pMuMwbUTetHkkIA5gLUYHRvPZbXtP-ct5L-9j9S_ykkZPhaVgQ-2YA</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            121.069035,14.653498,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Fernandez Street Kiosks</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v4qJ3Cjy890vwTaVPIqTFaz4UCW9pAyjSZUxY65P8aE0OZjDFEZXKcxc8bb7HA34X0VfAXqGQ3VuvRHlnm3NKVpUWWz924KEX-8W9U8xqYWYfNESxdeHyM0EZLSgzfzEBB8EwujgoiqeqOvFLoL025oIoZExcE7m9cxM4Un_fnHUuD5digbiogBkTu1uVl4hBOUPehOoXoaE6Vs2Ls-pExNLmbBk9JQvjXFXUDlB7Dzg8bqsoDhWR_TFM7b_qU3BM08kkHWDR2MyzeFS-HSH-TAL0tlWXyLl3EHsUgeKGts6fwzwB73rOufq4ZRAfQk8397jpnGeBDcrZgQldYEdzSyUZimAQE4b05d2uWkGos2JAXEThtEvjf7mLh1Sq-5nDszJoKJ2xvlTNC0HK2z8CTT9AchAYjqThLimXJv5bs4kXClLtCOIH_qvovJp5f3c7g3ZxFaiTmnSuRnTHsfhLxmjqHNSI_1F6W_MHwBjDJgsyCiwWA7C-Y7EFZ1aTXnY7v-LGUN6cmX7s_FEH0-KPxwDGD2v66OcppA90V4KNhJTF8I2eitSkoYHuRucu5HXtCGXpJnrb8DnVk115QSZuT56D2k1UcD-7fi1fWuMRm1S2YtV3cb_gCdO6fJT0ExOzY0neP3yBZm4HObAfjgS0OA1WKPu3v-px0YsoOTiN-t_RhNpeWTvsUCBrhI6FLXK58KdTPmKiLKW5IlB0ggzBwh68fwnQ" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/AN6v0v4qJ3Cjy890vwTaVPIqTFaz4UCW9pAyjSZUxY65P8aE0OZjDFEZXKcxc8bb7HA34X0VfAXqGQ3VuvRHlnm3NKVpUWWz924KEX-8W9U8xqYWYfNESxdeHyM0EZLSgzfzEBB8EwujgoiqeqOvFLoL025oIoZExcE7m9cxM4Un_fnHUuD5digbiogBkTu1uVl4hBOUPehOoXoaE6Vs2Ls-pExNLmbBk9JQvjXFXUDlB7Dzg8bqsoDhWR_TFM7b_qU3BM08kkHWDR2MyzeFS-HSH-TAL0tlWXyLl3EHsUgeKGts6fwzwB73rOufq4ZRAfQk8397jpnGeBDcrZgQldYEdzSyUZimAQE4b05d2uWkGos2JAXEThtEvjf7mLh1Sq-5nDszJoKJ2xvlTNC0HK2z8CTT9AchAYjqThLimXJv5bs4kXClLtCOIH_qvovJp5f3c7g3ZxFaiTmnSuRnTHsfhLxmjqHNSI_1F6W_MHwBjDJgsyCiwWA7C-Y7EFZ1aTXnY7v-LGUN6cmX7s_FEH0-KPxwDGD2v66OcppA90V4KNhJTF8I2eitSkoYHuRucu5HXtCGXpJnrb8DnVk115QSZuT56D2k1UcD-7fi1fWuMRm1S2YtV3cb_gCdO6fJT0ExOzY0neP3yBZm4HObAfjgS0OA1WKPu3v-px0YsoOTiN-t_RhNpeWTvsUCBrhI6FLXK58KdTPmKiLKW5IlB0ggzBwh68fwnQ</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            121.070746,14.652747,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Palma Hall Kiosk</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v6rT2_vcG1EvgjhOTYZOX1eEOlHgEHea2ylsFaMfYDtL13F2VIPPQW4SMDHe0Rm-yKA4gG33oVGrz3zg8VV8DoTWUU4stuuhsSbHIDto_rQ7ZJJ3takq4iw6Pb3LtIhVis_FuKULacFGqwJ9I7CHoPIS_vEjNyahOPtSx_6oCiZiHim2dQ3D5hIBjuV-ajIrj10mV7wfTN4vbO2rVTZu5p2lAOGRvb5IehUIbFOBp7-GOwwipApiAsH-iXI-M5dJZ1sDbIeTw_OYobySiIAryP-o36AmPGvGLttHomiLLXZ3iOuqCVPXe2eyWmc2L_ARx4cAUx9yyQWEETtXk6k3UTXjtH-Z25mqZvQdymwAu0e_BwlWZ3tZ1JiFBj0fUWcJuAvoYrZY0COGHyfWG0CpXx_OxIiqidTucIwXW8fMQ_0UGTiBvQJIy-f4BU0JuAcBT4b0zLKkWaFZ6zmCDYQwhOjW0z-AvzG8Thjb6q53WyZmXwtIsp60FzPdVBC1_3gg0nzjtwQWF4R6gYFqw7ijdTeqIjn-lRYCnYwZ86ksky_pK5qVVPvKMNCOxuFDyoQmB_cmQ1AyR-1FYwM1tf3YWfaYK_8pJR7wWig2Z9-M7LwqvPnc-oyKpZqEcPltf43y8TpKJv2uBAxFv1Sza2eHtcoff2sGpQWjfgrWYGczYnPwf09uRAHloaNi3gh1NRzMd9kiEUxxKXxJi1_V7hhd9KDPTuVtA" height="200" width="auto" /><br><br><br><br><img src="https://lh3.googleusercontent.com/umsh/AN6v0v7YtaNneaCGFMcHIihBG_e8nd8H7l6cuu7Ehpa5CT0ORar5urosUkXJMEnsaWcWKR1cm6GqNE0soiPC-f_05hyJ4rDye5-_ERnxEA-lsZUIJzB8Z5JR3eHKsSI9C6DrRUFavo1EQ18dBk2okEAXXcKOLsJCLuiIMY3JS5nyx-8fTy0lx_CGGj_MwHQB9GlTgBAojnn0n0UgoK50m4ta1CDJeQ-ChFbKqej9wfI2e2v0MvFGtrO00MREXETYE4bYccFaqFY2Ro2H-0pA3UOP7T9TWCs3KAnWOOI_RzFbfw8SyW9rh7hDPOjQayILSYqaxfzBu_yC_bocaoCE0mw113JKdmTx5oPWJ0WBjmAJGBIZHOejZ6YXuJENi0FDm3_YTphKKkhtKSoY3shmTatTC8dwHkZeDoZh6o64eh0YCTAIEgMFOdvCwS3BkUpVl_TKmBMmdQ5yQoT65h5Ncfx9nAkFaT7wttVK1AhodfW-cRqNXcHWLRoP8v7LxqMPwq-1kz0FAcL0-fR6KljqWkyG3kw5iwaj_dCSq2LpCKyTlEIQDNy3ggYXV2nrfyO-j_zed-k7oW_phEGF6BrMZyRtQDxOAFEEHyGjNm1E2t_94GcjXr_5Gc-uR-4LQ0-7g9CrcwLssWSC-hKW-8o8aFKtmUwXnlEDzwLIxCKSQyy1TH9U5_mlcOxAXixSMms_EAkoz7RdPQerF7f7apFOVI7v4GX35SCy" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/AN6v0v6rT2_vcG1EvgjhOTYZOX1eEOlHgEHea2ylsFaMfYDtL13F2VIPPQW4SMDHe0Rm-yKA4gG33oVGrz3zg8VV8DoTWUU4stuuhsSbHIDto_rQ7ZJJ3takq4iw6Pb3LtIhVis_FuKULacFGqwJ9I7CHoPIS_vEjNyahOPtSx_6oCiZiHim2dQ3D5hIBjuV-ajIrj10mV7wfTN4vbO2rVTZu5p2lAOGRvb5IehUIbFOBp7-GOwwipApiAsH-iXI-M5dJZ1sDbIeTw_OYobySiIAryP-o36AmPGvGLttHomiLLXZ3iOuqCVPXe2eyWmc2L_ARx4cAUx9yyQWEETtXk6k3UTXjtH-Z25mqZvQdymwAu0e_BwlWZ3tZ1JiFBj0fUWcJuAvoYrZY0COGHyfWG0CpXx_OxIiqidTucIwXW8fMQ_0UGTiBvQJIy-f4BU0JuAcBT4b0zLKkWaFZ6zmCDYQwhOjW0z-AvzG8Thjb6q53WyZmXwtIsp60FzPdVBC1_3gg0nzjtwQWF4R6gYFqw7ijdTeqIjn-lRYCnYwZ86ksky_pK5qVVPvKMNCOxuFDyoQmB_cmQ1AyR-1FYwM1tf3YWfaYK_8pJR7wWig2Z9-M7LwqvPnc-oyKpZqEcPltf43y8TpKJv2uBAxFv1Sza2eHtcoff2sGpQWjfgrWYGczYnPwf09uRAHloaNi3gh1NRzMd9kiEUxxKXxJi1_V7hhd9KDPTuVtA https://lh3.googleusercontent.com/umsh/AN6v0v7YtaNneaCGFMcHIihBG_e8nd8H7l6cuu7Ehpa5CT0ORar5urosUkXJMEnsaWcWKR1cm6GqNE0soiPC-f_05hyJ4rDye5-_ERnxEA-lsZUIJzB8Z5JR3eHKsSI9C6DrRUFavo1EQ18dBk2okEAXXcKOLsJCLuiIMY3JS5nyx-8fTy0lx_CGGj_MwHQB9GlTgBAojnn0n0UgoK50m4ta1CDJeQ-ChFbKqej9wfI2e2v0MvFGtrO00MREXETYE4bYccFaqFY2Ro2H-0pA3UOP7T9TWCs3KAnWOOI_RzFbfw8SyW9rh7hDPOjQayILSYqaxfzBu_yC_bocaoCE0mw113JKdmTx5oPWJ0WBjmAJGBIZHOejZ6YXuJENi0FDm3_YTphKKkhtKSoY3shmTatTC8dwHkZeDoZh6o64eh0YCTAIEgMFOdvCwS3BkUpVl_TKmBMmdQ5yQoT65h5Ncfx9nAkFaT7wttVK1AhodfW-cRqNXcHWLRoP8v7LxqMPwq-1kz0FAcL0-fR6KljqWkyG3kw5iwaj_dCSq2LpCKyTlEIQDNy3ggYXV2nrfyO-j_zed-k7oW_phEGF6BrMZyRtQDxOAFEEHyGjNm1E2t_94GcjXr_5Gc-uR-4LQ0-7g9CrcwLssWSC-hKW-8o8aFKtmUwXnlEDzwLIxCKSQyy1TH9U5_mlcOxAXixSMms_EAkoz7RdPQerF7f7apFOVI7v4GX35SCy</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            121.069149,14.652562,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>University Oval Kiosk</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v6fuQglrFVF4X27_7QRRIPNzU4SAU1ygO919ZSqoK1mmfg3V1jwyLw8Rh1nEuZoM9fED7gFpURPtTfFiuWRrJ0ZG2au_BPwrlp7RBF0c9wfedjNFsAreIzFR9gRUHhjmumKe6EwJ-EKhMDQeN9vLOnYMCbwNBSENScDr2wUz7Qj7jguIm1GiYBBgSQmXUEI9cTR6_-97nul8qzCMpx26u0lLLPHl2hANVTEFeL4k_5fPs-QwUKq1Z_r-Qcb5JwXjaUgXvxiW23dUnNVqwVZkH_Ti_6DQbIpXAermE03I20xsVagmJQsPl_xDa9RAj3S1dzXgXmjBrAoxAM9RWTqxUoUJ9W2_fpAlphgZxzjZqeniSJAsRd5SubsZKDdvP9btRNM3oxfxVWbIFj40zKtqUssXQ5Kw478hs6OCsFf3-pQ7noeQ6FweEhrDcPh4tP4k8HYvxYqTikLPVLf3uHrhPoowrIg9cHRm4OAifNzrFKhzaWHC6XDhDKp9nbc-gfsQGwd2H-59OmdHhQjQwmxORDxO4Nm4CRcel845353MrzrXaQIvh0Y7ijOXiJ03V5DvttNghrLb02-b226i7c9J7bM-V6dhdPB9X1WlWKu3VtuCKLmbYQ3XMDdMNBD_7vtHc6HUBQdnm0-JAj3lcXw_846bDPAbT8d5sjjAvCmkEaJt_mIiAnoJM5tNcttDuYoFMTgDwP3M27UzPIjoq8_K6ugo0CGDg" height="200" width="auto" /><br><br><br><br><img src="https://lh3.googleusercontent.com/umsh/AN6v0v6tUK_S6BTmrq1pwSS-9uxem2ZRuZib2MTpWgheYRCBnKqZrjcEbsKh7YCAe41KaeFcdAsLsUHJw09yqy4UiJD9XxKdKXvQZen-TaZrUJvCntFhFIxl4vvMnBy1W4RzbirYqMOU_eij607IicxIKj0s-vqNg-sc4R-WjbQ-W9Llw1RnK5O4GhZBOdEP4ofZXRTXbHBkg95M8Y6TUjH90PYyDjfqd9vNl4loUsWBQoFRtP1zRvsRapJKh-9sEehhzDOge8Hd8dCcZDIwvO8pNCZ7a0TvRiUwYpXZROrbCkRkJnKWH3PFoEF0-n0ecnztufjLFVitnDWIghChVUtgEbY0CLwUz_c1wYPjf8_rkuOfzTuB3niFr-q3jV-nsYOPBl8IoyT66EoaYi4zZlfMZTq5VF-yPIljrMuJ8ZlHo63pjMye07hi0W4Sng_az-5XwVS71NP7OIDKLT3IvotsjetDkJpM7p0P1Omaz3gabdizzvAZo64XO0_4eghHl-irhdpOfxprwD3-yr1CrhUVDnQWBVJhmq7S_uRTmq8htbjEoLi31p46xSbqE2rrnzz60uUGdpwrOrtVPaai4Ms7eaYbkDBZn8p8uPqNW5qBn27prD1-NEz2DwziWgGBepjIix74ZXKCK4XkwCsjpP212ofbqugPbM4B34mbNLTb-bEEEh5u63Zvk1HrPErvSQNhDK2w7PJJMCjmgCyRC9qwbwR2i6IpSg" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/AN6v0v6fuQglrFVF4X27_7QRRIPNzU4SAU1ygO919ZSqoK1mmfg3V1jwyLw8Rh1nEuZoM9fED7gFpURPtTfFiuWRrJ0ZG2au_BPwrlp7RBF0c9wfedjNFsAreIzFR9gRUHhjmumKe6EwJ-EKhMDQeN9vLOnYMCbwNBSENScDr2wUz7Qj7jguIm1GiYBBgSQmXUEI9cTR6_-97nul8qzCMpx26u0lLLPHl2hANVTEFeL4k_5fPs-QwUKq1Z_r-Qcb5JwXjaUgXvxiW23dUnNVqwVZkH_Ti_6DQbIpXAermE03I20xsVagmJQsPl_xDa9RAj3S1dzXgXmjBrAoxAM9RWTqxUoUJ9W2_fpAlphgZxzjZqeniSJAsRd5SubsZKDdvP9btRNM3oxfxVWbIFj40zKtqUssXQ5Kw478hs6OCsFf3-pQ7noeQ6FweEhrDcPh4tP4k8HYvxYqTikLPVLf3uHrhPoowrIg9cHRm4OAifNzrFKhzaWHC6XDhDKp9nbc-gfsQGwd2H-59OmdHhQjQwmxORDxO4Nm4CRcel845353MrzrXaQIvh0Y7ijOXiJ03V5DvttNghrLb02-b226i7c9J7bM-V6dhdPB9X1WlWKu3VtuCKLmbYQ3XMDdMNBD_7vtHc6HUBQdnm0-JAj3lcXw_846bDPAbT8d5sjjAvCmkEaJt_mIiAnoJM5tNcttDuYoFMTgDwP3M27UzPIjoq8_K6ugo0CGDg https://lh3.googleusercontent.com/umsh/AN6v0v6tUK_S6BTmrq1pwSS-9uxem2ZRuZib2MTpWgheYRCBnKqZrjcEbsKh7YCAe41KaeFcdAsLsUHJw09yqy4UiJD9XxKdKXvQZen-TaZrUJvCntFhFIxl4vvMnBy1W4RzbirYqMOU_eij607IicxIKj0s-vqNg-sc4R-WjbQ-W9Llw1RnK5O4GhZBOdEP4ofZXRTXbHBkg95M8Y6TUjH90PYyDjfqd9vNl4loUsWBQoFRtP1zRvsRapJKh-9sEehhzDOge8Hd8dCcZDIwvO8pNCZ7a0TvRiUwYpXZROrbCkRkJnKWH3PFoEF0-n0ecnztufjLFVitnDWIghChVUtgEbY0CLwUz_c1wYPjf8_rkuOfzTuB3niFr-q3jV-nsYOPBl8IoyT66EoaYi4zZlfMZTq5VF-yPIljrMuJ8ZlHo63pjMye07hi0W4Sng_az-5XwVS71NP7OIDKLT3IvotsjetDkJpM7p0P1Omaz3gabdizzvAZo64XO0_4eghHl-irhdpOfxprwD3-yr1CrhUVDnQWBVJhmq7S_uRTmq8htbjEoLi31p46xSbqE2rrnzz60uUGdpwrOrtVPaai4Ms7eaYbkDBZn8p8uPqNW5qBn27prD1-NEz2DwziWgGBepjIix74ZXKCK4XkwCsjpP212ofbqugPbM4B34mbNLTb-bEEEh5u63Zvk1HrPErvSQNhDK2w7PJJMCjmgCyRC9qwbwR2i6IpSg</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            121.068524,14.653929,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>UPIS Kiosk</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.072026,14.652454,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tea Room</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v4nMY_xR719DgcRh1Bq7C3fuRFGAmQFDFgYNrc8t-QoGWCNcDw-KrWvpgI61SN5KDmdxnnqWkMDxdGeIYzVGIGZTeGh-puagFs9_hmtJZbUc6kuQpoY2LU3XmzW4cfk4pSIJH4ebe5ps467VcEFFi7NPWyp8WPXPRf6w-Wr_y6ZlzxrVn4hZwJhP1P_f90rbf643xmHoZ9QnpRoBuD6plGQ-gKyCpKKZi_1eCJCCzEdpopyh6HcXZnQOeRxeEd1NEoMpnz5PDoZ5QrmzdefMmbBmZ8ABp2K32gAmTc8q9jzvsM3aA9YfrU8twfZ0ClwHainaxAbD_2H8Z4oQRJgceJF-G8r7703sDRSSm5hfhKjo71YOLp3C4-Klb58KeZ5ho_fmszkbqNqwU0AgjWe23E1w_Aki2bjYzR3O_taBwYVqknYhfLPVRBakQP9SCiG6pMdDWmTq88CJ_U9AiWMYfV47fWMKSxm5_JIHPU9-L_8cxUfTWH8Lz8IAhbGVF_frpLFG1TLUDnsFh3fGZOnYPuzdvxHsZc2qYFKTJEHOc7MpURcxu_K6OER2fxgFYqNU95fJRT90K22DXvLiw6_uHrK57G70SIsfI-KjrM-F2Qu0tCbdUUVfjn-aBtNCl2YiEM8wbH_YjU-QrX1l800PDCHuG2eyjDILQ2xLowjIA_mV7T9tXgxzZVfN_pFWSeo27LnJh8h1FUOZAkIZX3aT176cQxrFA" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/AN6v0v4nMY_xR719DgcRh1Bq7C3fuRFGAmQFDFgYNrc8t-QoGWCNcDw-KrWvpgI61SN5KDmdxnnqWkMDxdGeIYzVGIGZTeGh-puagFs9_hmtJZbUc6kuQpoY2LU3XmzW4cfk4pSIJH4ebe5ps467VcEFFi7NPWyp8WPXPRf6w-Wr_y6ZlzxrVn4hZwJhP1P_f90rbf643xmHoZ9QnpRoBuD6plGQ-gKyCpKKZi_1eCJCCzEdpopyh6HcXZnQOeRxeEd1NEoMpnz5PDoZ5QrmzdefMmbBmZ8ABp2K32gAmTc8q9jzvsM3aA9YfrU8twfZ0ClwHainaxAbD_2H8Z4oQRJgceJF-G8r7703sDRSSm5hfhKjo71YOLp3C4-Klb58KeZ5ho_fmszkbqNqwU0AgjWe23E1w_Aki2bjYzR3O_taBwYVqknYhfLPVRBakQP9SCiG6pMdDWmTq88CJ_U9AiWMYfV47fWMKSxm5_JIHPU9-L_8cxUfTWH8Lz8IAhbGVF_frpLFG1TLUDnsFh3fGZOnYPuzdvxHsZc2qYFKTJEHOc7MpURcxu_K6OER2fxgFYqNU95fJRT90K22DXvLiw6_uHrK57G70SIsfI-KjrM-F2Qu0tCbdUUVfjn-aBtNCl2YiEM8wbH_YjU-QrX1l800PDCHuG2eyjDILQ2xLowjIA_mV7T9tXgxzZVfN_pFWSeo27LnJh8h1FUOZAkIZX3aT176cQxrFA</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            121.073425,14.652183,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kamia Eatery</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v6_Y1hxgPmpXYJ3AAd47dNyaX_UuQDmtAo0mk05IbfPr5hbItjfV2BU4R9lfsl8FlYc6QQEG0AI1V73MOrelRj5pr3N2TBX0FHXSi-NKqRHCyK1dwsnD58BxbQ3L_L2EeYN4127u9lO6_nnUo6WkAO_zK_V1mLDQldWVu-fgWz6g1keU6zRWs7yf5YjW_417CJv3Vd7u8GT7zLFII9xIhdqNUQhIPIjPmqRJpGiqY6yIOtJJ18JUE8IhiKEBGcyAcfxa__RxnuIm-1rvcYaQDCHEANpLxQrtxFgXvg7TF083-HzgszRxKVNqeRy13SdPvmyo62ZQ9peDkznYcTIaKt52bJmevjZpKOp3C3npvcihGYCmN4u2NqDfLU40vzVPLz67QBqm4SCg1QSuHEFJ1oplRyrKJg0w98qI6czJgrt6-vhLzVMn7uPtcoOq5JImS2ma2ebo42c2g5YBIde4eKFTkAUwNxYcJuxuXboezJl5Gd4_iHibz2gsLJL_tHaGw3qThQH4zarSJWmhvucm2im1aVdVBRTbkVdtq5uUc6y2Qow8TmemtnEFZGqQQt0Nw5l7knzaD20yc0ucdRJ-nywIjhODivECWDocZReLcpZHh9i73_WulprXqjbcvt0DfO9t2Q2KmNdC4HLoD9QgtfoXQ19LzbWmSxSFD9D70oUR-j7sn_FUkZz0QTRULdcHcaOb93aBc9_uYGeO6NJ5_BYfTfGww" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/AN6v0v6_Y1hxgPmpXYJ3AAd47dNyaX_UuQDmtAo0mk05IbfPr5hbItjfV2BU4R9lfsl8FlYc6QQEG0AI1V73MOrelRj5pr3N2TBX0FHXSi-NKqRHCyK1dwsnD58BxbQ3L_L2EeYN4127u9lO6_nnUo6WkAO_zK_V1mLDQldWVu-fgWz6g1keU6zRWs7yf5YjW_417CJv3Vd7u8GT7zLFII9xIhdqNUQhIPIjPmqRJpGiqY6yIOtJJ18JUE8IhiKEBGcyAcfxa__RxnuIm-1rvcYaQDCHEANpLxQrtxFgXvg7TF083-HzgszRxKVNqeRy13SdPvmyo62ZQ9peDkznYcTIaKt52bJmevjZpKOp3C3npvcihGYCmN4u2NqDfLU40vzVPLz67QBqm4SCg1QSuHEFJ1oplRyrKJg0w98qI6czJgrt6-vhLzVMn7uPtcoOq5JImS2ma2ebo42c2g5YBIde4eKFTkAUwNxYcJuxuXboezJl5Gd4_iHibz2gsLJL_tHaGw3qThQH4zarSJWmhvucm2im1aVdVBRTbkVdtq5uUc6y2Qow8TmemtnEFZGqQQt0Nw5l7knzaD20yc0ucdRJ-nywIjhODivECWDocZReLcpZHh9i73_WulprXqjbcvt0DfO9t2Q2KmNdC4HLoD9QgtfoXQ19LzbWmSxSFD9D70oUR-j7sn_FUkZz0QTRULdcHcaOb93aBc9_uYGeO6NJ5_BYfTfGww</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            121.07074,14.651932,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>School of Economics Canteen</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v5wiyGq_-FqrJtzLi18NdTZYvFNci1vW_z6ZMdZLeQwdRL7h-eGCuGdHqX_zwWOB9YMrc4OXh0kZ7mJ2KqgtPuhlqE2Aqf0RanvFr2di_Tq80xVVyFYKfKR8M5CntQ6KZhUSZ_T8W44Dqp_D1SyESldBDEIlFhPcfrt5fxRqvL5ykVQzLBsBlrCcTZwkINlF_IspgjhW4xVD48KHN16V70jvXI6goH_3D6mqpSTWj4zzWhdlIazegtOU5fnvMVQTuAI4ZzLp4UJRLNKp9bfWEqIsS0R53YR0sKShbBPq3hvgIAgK-GYy5p_pLJX8lOKCAMi87Q4U1s7z_76WrSPmY6uX_DkVvcaFLuTa4PQU-Uqqo9cxJWxwlGaOJPGDVB87KbkAuwiQe_fCyBxNQm8eMXfLIH0WhXM8A5s5Lbxssn47L2tPcEdypdrOaAc2UwFVMBcINqbTOmue74xJs0ZOipdNyiywNs6gbdaP2bwKKLezWspOoAP2wkzxs7qfSXvZMKmhHWs_dV30RshuzMpkhp9CxFQ5oJ-RhEyX13c-8Yg6SUi7K6hs6_K1reWdw8mGMyefNWqfH943l-Gk92gESnHQD9BODVQJZi6AidpUzhrypFXYdcyulrLZH01KmXC9FVO3Ms8JtKsNAIDM1ll6OhAgg5FrYD3eoKnAOkOZ1sz9Jc0jsIDL0Y_0N7ZOygDr4eyEHx4KWhvbCTu-1lHzNFfgVuqRQ" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/AN6v0v5wiyGq_-FqrJtzLi18NdTZYvFNci1vW_z6ZMdZLeQwdRL7h-eGCuGdHqX_zwWOB9YMrc4OXh0kZ7mJ2KqgtPuhlqE2Aqf0RanvFr2di_Tq80xVVyFYKfKR8M5CntQ6KZhUSZ_T8W44Dqp_D1SyESldBDEIlFhPcfrt5fxRqvL5ykVQzLBsBlrCcTZwkINlF_IspgjhW4xVD48KHN16V70jvXI6goH_3D6mqpSTWj4zzWhdlIazegtOU5fnvMVQTuAI4ZzLp4UJRLNKp9bfWEqIsS0R53YR0sKShbBPq3hvgIAgK-GYy5p_pLJX8lOKCAMi87Q4U1s7z_76WrSPmY6uX_DkVvcaFLuTa4PQU-Uqqo9cxJWxwlGaOJPGDVB87KbkAuwiQe_fCyBxNQm8eMXfLIH0WhXM8A5s5Lbxssn47L2tPcEdypdrOaAc2UwFVMBcINqbTOmue74xJs0ZOipdNyiywNs6gbdaP2bwKKLezWspOoAP2wkzxs7qfSXvZMKmhHWs_dV30RshuzMpkhp9CxFQ5oJ-RhEyX13c-8Yg6SUi7K6hs6_K1reWdw8mGMyefNWqfH943l-Gk92gESnHQD9BODVQJZi6AidpUzhrypFXYdcyulrLZH01KmXC9FVO3Ms8JtKsNAIDM1ll6OhAgg5FrYD3eoKnAOkOZ1sz9Jc0jsIDL0Y_0N7ZOygDr4eyEHx4KWhvbCTu-1lHzNFfgVuqRQ</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            121.073615,14.656123,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>University Food Service/Cafe</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v67AG1gOYwinizzwfiBIY562z27CclTM0r0VeoziOOS_kMaUwnKv8T8VZcf78sfflXqjz2Wv3ahkIa3VXSVXucW-F2NqvSGVbBn6zZm6MDz5QN5cEilbKs8uXS32KzJdJu7s0jIgWHhvDyqG5H8X_OjuKH1E7GBtLW9c-JkNzdj_Y2WlaDPOt7IrjriBxgpIWRZznC6WTlVlTHo-NXFq-pXim56y10N-yekLqM3pjH_mUZ2M9OQU6nv8l7EJp5w_N4TcjQwqnggxPJDpvD807Zcdm1dGxQfv3cKWnfiNOh7dek7L-KaER_nQ-8MtbCI0nBG7HwkCzguU1MNlUHmMS7wa5bkWsS_mfSn4SZUBVXBKBUNIQTAbAw8qDMCYr7Fp0odi4v8ZoC7d6e45ly1Moh8EX2H3kBpoPOqm4ldnnLanGylkHGWbrRohHO3UNAvaH0A4NRP5mOEQgTs6we8agx9SAl-9OOA9QuckaaNHZF-NAZXmxfrdyIlzc_gGXe6xojEgNxJ4cPXG60Lie65Lv21lWBh1sFwQlLQPvRaBhnO5CZKYCbBRP3Xrz0QV-JLIiZfu3PavSzCYaUsCg74r_7r3muvY8821KIvfPff_z9zyaNMPEkkmDF4AUIuR-_Y7A2UTUarsH3S5qnFnZVevl5DgsyP-jg57k_gRAg-_9cK4xnKrNir_LPxCF58A_ogefyPJ-rIze9U74I6hSdO546OFL3NeA" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/AN6v0v67AG1gOYwinizzwfiBIY562z27CclTM0r0VeoziOOS_kMaUwnKv8T8VZcf78sfflXqjz2Wv3ahkIa3VXSVXucW-F2NqvSGVbBn6zZm6MDz5QN5cEilbKs8uXS32KzJdJu7s0jIgWHhvDyqG5H8X_OjuKH1E7GBtLW9c-JkNzdj_Y2WlaDPOt7IrjriBxgpIWRZznC6WTlVlTHo-NXFq-pXim56y10N-yekLqM3pjH_mUZ2M9OQU6nv8l7EJp5w_N4TcjQwqnggxPJDpvD807Zcdm1dGxQfv3cKWnfiNOh7dek7L-KaER_nQ-8MtbCI0nBG7HwkCzguU1MNlUHmMS7wa5bkWsS_mfSn4SZUBVXBKBUNIQTAbAw8qDMCYr7Fp0odi4v8ZoC7d6e45ly1Moh8EX2H3kBpoPOqm4ldnnLanGylkHGWbrRohHO3UNAvaH0A4NRP5mOEQgTs6we8agx9SAl-9OOA9QuckaaNHZF-NAZXmxfrdyIlzc_gGXe6xojEgNxJ4cPXG60Lie65Lv21lWBh1sFwQlLQPvRaBhnO5CZKYCbBRP3Xrz0QV-JLIiZfu3PavSzCYaUsCg74r_7r3muvY8821KIvfPff_z9zyaNMPEkkmDF4AUIuR-_Y7A2UTUarsH3S5qnFnZVevl5DgsyP-jg57k_gRAg-_9cK4xnKrNir_LPxCF58A_ogefyPJ-rIze9U74I6hSdO546OFL3NeA</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            121.073852,14.654248,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Vinzons Hall Kiosk</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v4ZqxoHqQgosnpDmiOc_bLYACEBeF920Fe1YSABjb8OUn_AVU9wY4YDMGXzHYJcIrJiiq1h10eeOnXXJ8S6gtfjJoF7oz1FkPOmOPS6Td_-wMtueXA4-ad2I25wUCKgx9Bgod3sMbC6hAVkysUa2ymN_EQNAceIyqaC6A1yaBiNTPqQyrj5u8m0xZE7sQCeklnWUwo9YQ3DF8oh-rRHTXplpyIhYVuzTfmsW-AXb81aNImbGVZL8uaDqeIKEJo48Pf272BIpaMWH7F2w44dX3D-Txy2XihyS6izxjAjiUFUXTp8AkLmzLn5IeJhPpkSdL_hPRTAPlTA-4AVHhJALj5xlR_ecIl6mrGG9y3mQzx6Q_rzYL2HqwNaKAjIz3-L1QYqbqAmM79XlJtzHrm0lLMHt8zHdJPqJeVH6OBKhZSevmtjGofyn7TVWHSByTpv2WDZAcbLeq_iXIfnGS1F4UBq3bg65rHsBYvxCu9oaUY9GgskLDoMCNz4RVbGxgjKhehKs3Og0k7oO6OiLcc183rmjJhruYQXwYun8Bg35_tUz_1YIlqZqRJtoGtbcWn7M-cSRVPrpKGGJ5DQUsIvvFwlxZCD1i64C09ednWINcrsummh7sN7AkaI9wLl2wuB4c8liY9ybq2XJEhOTc3NqSUiVBPFQa-Pghn9IlTygaSTUe8ThYdB3NJ4yWG3oI8qYYdDeMw8So87wEL7bbKb9z8JWr7QGQ" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/AN6v0v4ZqxoHqQgosnpDmiOc_bLYACEBeF920Fe1YSABjb8OUn_AVU9wY4YDMGXzHYJcIrJiiq1h10eeOnXXJ8S6gtfjJoF7oz1FkPOmOPS6Td_-wMtueXA4-ad2I25wUCKgx9Bgod3sMbC6hAVkysUa2ymN_EQNAceIyqaC6A1yaBiNTPqQyrj5u8m0xZE7sQCeklnWUwo9YQ3DF8oh-rRHTXplpyIhYVuzTfmsW-AXb81aNImbGVZL8uaDqeIKEJo48Pf272BIpaMWH7F2w44dX3D-Txy2XihyS6izxjAjiUFUXTp8AkLmzLn5IeJhPpkSdL_hPRTAPlTA-4AVHhJALj5xlR_ecIl6mrGG9y3mQzx6Q_rzYL2HqwNaKAjIz3-L1QYqbqAmM79XlJtzHrm0lLMHt8zHdJPqJeVH6OBKhZSevmtjGofyn7TVWHSByTpv2WDZAcbLeq_iXIfnGS1F4UBq3bg65rHsBYvxCu9oaUY9GgskLDoMCNz4RVbGxgjKhehKs3Og0k7oO6OiLcc183rmjJhruYQXwYun8Bg35_tUz_1YIlqZqRJtoGtbcWn7M-cSRVPrpKGGJ5DQUsIvvFwlxZCD1i64C09ednWINcrsummh7sN7AkaI9wLl2wuB4c8liY9ybq2XJEhOTc3NqSUiVBPFQa-Pghn9IlTygaSTUe8ThYdB3NJ4yWG3oI8qYYdDeMw8So87wEL7bbKb9z8JWr7QGQ</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            121.073012,14.653986,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Melchor Hall Canteen</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v716r40-YJGN6F4E-O1Cdy7MbsmHtDsbbGiOKALdInql2DqwV5fR6yR-uwwV-KUVo_lKG5e82fUMHCDfevuC6CLial0x9Vl-ir55BYR-B_XJpDsme81HiuRBPUlxEJgZl5fOUTPLucUIvEvlmWyProyHuVvGWOyQtOMgJopF1gPMmjHxr7_OF0mmGkom4rTi3z4nO424XzyW1pHMLe-_bHFzyXwFpVJixscAPomyhsgwvaEP2cqPa1vqjFxxBda_CN9qjWIhrc7Cb8AluyOz6R6gkmHh7pQd5rrYwpMNFojo_z1qi519tPBinEI_wVgQ09jmgVGtyyLygxaiO7OhERbMI-sEXPpZQS4CJABMZyBSBa5OnTxbK45nfhfxdAI-1dXAgi0pBisX7m1oD3YprVL3Xr0OZnOSWMln6eY6Z7DVlLsj-jKCkun2MHjIjo-fQxnkP9878h0DOxgzJkKDggyhc6KxtCcQRvzgbveODhDHo1q8vke9l6PvLN5H7YM1-krGu3qDYYpkX9rdG1xSleaVy_FqI7FtJniKQ5kE2PAdsGchQkRiUV2gmzTFEpX10tzfkf8yDAAJWy1vxhjH8YRtq72KIpf4LUEPRgjpPJ14TgWymj_R36JOfkSpLgvWy_jRQ1d7cKXI7UFkSXdT9k2o7LcF15TYT8ssuBVXJB69GK2k84ZIBzqN5zLYkkv3hREZMt6zq1q_Sn0TqpOCmgoB9nl7Q" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/AN6v0v716r40-YJGN6F4E-O1Cdy7MbsmHtDsbbGiOKALdInql2DqwV5fR6yR-uwwV-KUVo_lKG5e82fUMHCDfevuC6CLial0x9Vl-ir55BYR-B_XJpDsme81HiuRBPUlxEJgZl5fOUTPLucUIvEvlmWyProyHuVvGWOyQtOMgJopF1gPMmjHxr7_OF0mmGkom4rTi3z4nO424XzyW1pHMLe-_bHFzyXwFpVJixscAPomyhsgwvaEP2cqPa1vqjFxxBda_CN9qjWIhrc7Cb8AluyOz6R6gkmHh7pQd5rrYwpMNFojo_z1qi519tPBinEI_wVgQ09jmgVGtyyLygxaiO7OhERbMI-sEXPpZQS4CJABMZyBSBa5OnTxbK45nfhfxdAI-1dXAgi0pBisX7m1oD3YprVL3Xr0OZnOSWMln6eY6Z7DVlLsj-jKCkun2MHjIjo-fQxnkP9878h0DOxgzJkKDggyhc6KxtCcQRvzgbveODhDHo1q8vke9l6PvLN5H7YM1-krGu3qDYYpkX9rdG1xSleaVy_FqI7FtJniKQ5kE2PAdsGchQkRiUV2gmzTFEpX10tzfkf8yDAAJWy1vxhjH8YRtq72KIpf4LUEPRgjpPJ14TgWymj_R36JOfkSpLgvWy_jRQ1d7cKXI7UFkSXdT9k2o7LcF15TYT8ssuBVXJB69GK2k84ZIBzqN5zLYkkv3hREZMt6zq1q_Sn0TqpOCmgoB9nl7Q</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            121.068836,14.656601,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>What About Coffee? - University Hotel</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v7Z3BDFKPuBKMiV7HbYtysHLP1qsBWBGTezf8VQl80mpj7oeSyf6zahVAZByomcwAE86S8un9dn9u-_QOinBlS_C_crle-Awm6W56lppiS1Bo9opZ3BKZBlJDNiMq2apWMIMyR_BS6e29wYcaJAg6H9ybkk2vyYEtyFRaatGd_hUh__auHLy8BkR_nH4gb8CXb2qQMsgLNkdEGh28gczTkC6vhh-IRkgSrr7UCIq5q-759nhpzFAiyDzq64aVskTxUDU81Ol5bUV1HHADEbmQgDjYBcb4IHJ2-XiG5EuWmnJ9Zi-puZBa1xGyr6E-U7OFWkHFqhyy-Qn0UvkBspZqGBLkNz6vB1JgRKW7EDbdMqb3UGyS_yR9U0oUQpv-Wo7Jy2vvLXrUcdLz0pm_zo_1a64uHSxRYwVZwFpGchqwh68PdNdQJOrDLVQcaQAJrVJ_b7aBVCzstkIZon0akSf4268vP0xejQv550QaFEM8Of38L_0ovm5_cBdTT4pM2lKlHmQrmMWCzVLuL8XkX4NtuaGwR1-fOQv3wYJp6YoJSNAn1jVWuQjzwb2TvljrmDrmu7TjPWvJsphkr5DjycHWvrYicoI7q34Uzk4gCIgfZMCm47QLhMwLuDaZSu5NuEa_DwXYhe5nEpmpMCwdAgPxo6bxoy4c2-eqMvA95ENZWh3kn9K3bK8Tjo3045bY5SV3FTf3gEsc8Bbf1riw7op3TwB_l6" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/AN6v0v7Z3BDFKPuBKMiV7HbYtysHLP1qsBWBGTezf8VQl80mpj7oeSyf6zahVAZByomcwAE86S8un9dn9u-_QOinBlS_C_crle-Awm6W56lppiS1Bo9opZ3BKZBlJDNiMq2apWMIMyR_BS6e29wYcaJAg6H9ybkk2vyYEtyFRaatGd_hUh__auHLy8BkR_nH4gb8CXb2qQMsgLNkdEGh28gczTkC6vhh-IRkgSrr7UCIq5q-759nhpzFAiyDzq64aVskTxUDU81Ol5bUV1HHADEbmQgDjYBcb4IHJ2-XiG5EuWmnJ9Zi-puZBa1xGyr6E-U7OFWkHFqhyy-Qn0UvkBspZqGBLkNz6vB1JgRKW7EDbdMqb3UGyS_yR9U0oUQpv-Wo7Jy2vvLXrUcdLz0pm_zo_1a64uHSxRYwVZwFpGchqwh68PdNdQJOrDLVQcaQAJrVJ_b7aBVCzstkIZon0akSf4268vP0xejQv550QaFEM8Of38L_0ovm5_cBdTT4pM2lKlHmQrmMWCzVLuL8XkX4NtuaGwR1-fOQv3wYJp6YoJSNAn1jVWuQjzwb2TvljrmDrmu7TjPWvJsphkr5DjycHWvrYicoI7q34Uzk4gCIgfZMCm47QLhMwLuDaZSu5NuEa_DwXYhe5nEpmpMCwdAgPxo6bxoy4c2-eqMvA95ENZWh3kn9K3bK8Tjo3045bY5SV3FTf3gEsc8Bbf1riw7op3TwB_l6</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            121.072906,14.661069,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>National College of Public Administration and Governance Canteen</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v5TOUcrSgZzyA4AIdThy-ZAs2ITFQX3Z4GalKZeho40_knuApkSePr0itokDSYxVGskqMnxBnMQsu1HLNAZN9HkXCfqdv04G8_IyUVbHpBjq6y5Xlm8YWkhuaz822IqnIuuDwVIUitREoyodRl9Bhys1rO_eMT2To5bnLWjV4zgGLT4jvteXApC2yvTmwXeUSFnWPKmeFM5omKRn1wuiu8R_osXflfExymEgasOKmA_u8Xo9WtRbpm8ltZc4_JYWxdSFrWO76OUZP8LERK2WE4C20Hays87iku02QRLFAAOekhOUXgMj0OYGvVUz0GGHyUESa7CoTTJDxYZn6ubJVijzUEt2xkhrtnmWBy9nGwhYxVK__eSzF8Cvt4WruMbrjyi-a3sO8nOUrVZXCn8x-pAqn_dyEStCneehG-nj3s9pBwFBySrYyO2wT3gWn9HGAjSR_y32M2G8dXoHOO3tm-kAu0mzyZCxwy0nVCw9YZ9CeQA4iZOAq-g_nm3KzCDk0PTAQ2QOKjmig2C7gtWLidjiVIufjzR9Ar4Nqw_1gjA4stSHxXdYZd8CDknxqeW9Uv8O1PmpQ0quCIVpiNFH14RPOq3c3yVUFKR8Oy6jgpTBzeIj-PVFKg72-1kki9RLsYWj_xkDjkW-qS__AlUkhmMN9lzkpOM-QeJxKexqCcHwD_L6xSlVG8a4GM7NLru5rySU3Baw0gwbczdnYLk5Tltu6AlZg" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/AN6v0v5TOUcrSgZzyA4AIdThy-ZAs2ITFQX3Z4GalKZeho40_knuApkSePr0itokDSYxVGskqMnxBnMQsu1HLNAZN9HkXCfqdv04G8_IyUVbHpBjq6y5Xlm8YWkhuaz822IqnIuuDwVIUitREoyodRl9Bhys1rO_eMT2To5bnLWjV4zgGLT4jvteXApC2yvTmwXeUSFnWPKmeFM5omKRn1wuiu8R_osXflfExymEgasOKmA_u8Xo9WtRbpm8ltZc4_JYWxdSFrWO76OUZP8LERK2WE4C20Hays87iku02QRLFAAOekhOUXgMj0OYGvVUz0GGHyUESa7CoTTJDxYZn6ubJVijzUEt2xkhrtnmWBy9nGwhYxVK__eSzF8Cvt4WruMbrjyi-a3sO8nOUrVZXCn8x-pAqn_dyEStCneehG-nj3s9pBwFBySrYyO2wT3gWn9HGAjSR_y32M2G8dXoHOO3tm-kAu0mzyZCxwy0nVCw9YZ9CeQA4iZOAq-g_nm3KzCDk0PTAQ2QOKjmig2C7gtWLidjiVIufjzR9Ar4Nqw_1gjA4stSHxXdYZd8CDknxqeW9Uv8O1PmpQ0quCIVpiNFH14RPOq3c3yVUFKR8Oy6jgpTBzeIj-PVFKg72-1kki9RLsYWj_xkDjkW-qS__AlUkhmMN9lzkpOM-QeJxKexqCcHwD_L6xSlVG8a4GM7NLru5rySU3Baw0gwbczdnYLk5Tltu6AlZg</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            121.059969,14.656498,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ylanan Street Kiosk</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.064924,14.657837,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Area 2</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.068077,14.65968,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>UP Food Hub</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.062509,14.65231,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>IsKape</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.063423,14.650492,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kiosk</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.0704517,14.6583308,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Jess Jr's Kitchenette]]></name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.067164,14.6597814,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Iskomai</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.0672653,14.6596273,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Rambo’s Steak and Destroy</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.0680049,14.6596199,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>elyups</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.0678319,14.659616,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Sisko' (Something Crispy) - UP diliman]]></name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.0674668,14.6597233,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>DOZ Korean Bar</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.0678205,14.659785,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Slice Brothers</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.0673119,14.6597321,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kalye Dos</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.0676009,14.6597833,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lutong Bahay</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.0677042,14.6597777,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Longga Republic</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.0680882,14.6597867,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>115 CAFÉ</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.0674782,14.659781,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Area 2 UP Diliman</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.0684368,14.6597964,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Facebuko</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.0685516,14.6596811,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>UP Math Kiosk</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.0709339,14.6484054,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>UP Institute of Mathematics Canteen</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.0712162,14.6483934,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Dormitories</name>
+      <Placemark>
+        <name>Kalayaan Residence Hall</name>
+        <description><![CDATA[Latitude: 14.6519<br>Longitude: 121.0636]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Latitude">
+            <value>14.6519</value>
+          </Data>
+          <Data name="Longitude">
+            <value>121.0636</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            121.0636,14.6519,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Yakal Residence Hall</name>
+        <description><![CDATA[Latitude: 14.6525<br>Longitude: 121.0641]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Latitude">
+            <value>14.6525</value>
+          </Data>
+          <Data name="Longitude">
+            <value>121.0641</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            121.0641,14.6525,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ipil Residence Hall</name>
+        <description><![CDATA[Latitude: 14.652<br>Longitude: 121.0638]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Latitude">
+            <value>14.652</value>
+          </Data>
+          <Data name="Longitude">
+            <value>121.0638</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            121.0638,14.652,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kamagong Residence Hall</name>
+        <description><![CDATA[Latitude: 14.65<br>Longitude: 121.066]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Latitude">
+            <value>14.65</value>
+          </Data>
+          <Data name="Longitude">
+            <value>121.066</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            121.066,14.65,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sanggumay Residence Hall</name>
+        <description><![CDATA[Latitude: 14.6515<br>Longitude: 121.0635]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Latitude">
+            <value>14.6515</value>
+          </Data>
+          <Data name="Longitude">
+            <value>121.0635</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            121.0635,14.6515,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Centennial Residence Halls</name>
+        <description><![CDATA[Latitude: 14.6495<br>Longitude: 121.0665]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Latitude">
+            <value>14.6495</value>
+          </Data>
+          <Data name="Longitude">
+            <value>121.0665</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            121.0665,14.6495,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Balay Atleta</name>
+        <description><![CDATA[Latitude: 14.6505<br>Longitude: 121.063]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Latitude">
+            <value>14.6505</value>
+          </Data>
+          <Data name="Longitude">
+            <value>121.063</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            121.063,14.6505,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>International Center</name>
+        <description><![CDATA[Latitude: 14.654<br>Longitude: 121.064]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Latitude">
+            <value>14.654</value>
+          </Data>
+          <Data name="Longitude">
+            <value>121.064</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            121.064,14.654,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Yakal Residence Hall</name>
+        <description><![CDATA[Latitude: <br>Longitude: ]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Latitude">
+            <value/>
+          </Data>
+          <Data name="Longitude">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            121.0691833,14.6579666,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>UP Molave Residence Hall</name>
+        <description><![CDATA[Latitude: <br>Longitude: ]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Latitude">
+            <value/>
+          </Data>
+          <Data name="Longitude">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            121.0679394,14.6577273,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Centennial Residence Hall</name>
+        <description><![CDATA[Latitude: <br>Longitude: ]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Latitude">
+            <value/>
+          </Data>
+          <Data name="Longitude">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            121.0626271,14.6477861,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Acacia Residence Halls</name>
+        <description><![CDATA[Latitude: <br>Longitude: ]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Latitude">
+            <value/>
+          </Data>
+          <Data name="Longitude">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            121.0703753,14.6589182,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ilang Ilang Residence Hall</name>
+        <description><![CDATA[Latitude: <br>Longitude: ]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Latitude">
+            <value/>
+          </Data>
+          <Data name="Longitude">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            121.0733287,14.6594265,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kamia Residence Hall</name>
+        <description><![CDATA[Latitude: <br>Longitude: ]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Latitude">
+            <value/>
+          </Data>
+          <Data name="Longitude">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            121.070509,14.6520711,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sampaguita Residence Hall</name>
+        <description><![CDATA[Latitude: <br>Longitude: ]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Latitude">
+            <value/>
+          </Data>
+          <Data name="Longitude">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            121.0712656,14.6521084,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Waiting Sheds</name>
+      <Placemark>
+        <name>NIGS / CS Lib Jeepney Stop</name>
+        <description><![CDATA[Latitude: 14.649007257585907<br>Longitude: 121.06901582026433]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Latitude">
+            <value>14.649007257585907</value>
+          </Data>
+          <Data name="Longitude">
+            <value>121.06901582026433</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            121.069015820264,14.6490072575859,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>CSSP Jeepney Stop</name>
+        <description><![CDATA[Latitude: 14.652442163171568<br>Longitude: 121.06942629427924]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Latitude">
+            <value>14.652442163171568</value>
+          </Data>
+          <Data name="Longitude">
+            <value>121.06942629427924</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            121.069426294279,14.6524421631716,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kamia Jeepney Stop</name>
+        <description><![CDATA[Latitude: 14.65248217753136<br>Longitude: 121.0708978138869]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Latitude">
+            <value>14.65248217753136</value>
+          </Data>
+          <Data name="Longitude">
+            <value>121.0708978138869</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            121.070897813887,14.6524821775314,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ikot / PhilCoA Jeepney Stop</name>
+        <description><![CDATA[Latitude: 14.654388259177933<br>Longitude: 121.07309120940033]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Latitude">
+            <value>14.654388259177933</value>
+          </Data>
+          <Data name="Longitude">
+            <value>121.07309120940033</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            121.0730912094,14.6543882591779,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>School of Econ Jeepney Stop</name>
+        <description><![CDATA[Latitude: 14.655854364575504<br>Longitude: 121.07305587409837]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Latitude">
+            <value>14.655854364575504</value>
+          </Data>
+          <Data name="Longitude">
+            <value>121.07305587409837</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            121.073055874098,14.6558543645755,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Malcolm Jeepney Stop</name>
+        <description><![CDATA[Latitude: 14.656850234695883<br>Longitude: 121.0727481889467]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Latitude">
+            <value>14.656850234695883</value>
+          </Data>
+          <Data name="Longitude">
+            <value>121.0727481889467</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            121.072748188947,14.6568502346959,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Asian Center Jeepney Stop</name>
+        <description><![CDATA[Latitude: 14.657143622912148<br>Longitude: 121.07280256178899]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Latitude">
+            <value>14.657143622912148</value>
+          </Data>
+          <Data name="Longitude">
+            <value>121.07280256178899</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            121.072802561789,14.6571436229121,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ilang Ilang Jeepney Stop</name>
+        <description><![CDATA[Latitude: 14.659194408144664<br>Longitude: 121.07277746059516]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Latitude">
+            <value>14.659194408144664</value>
+          </Data>
+          <Data name="Longitude">
+            <value>121.07277746059516</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            121.072777460595,14.6591944081447,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>UP Health Center Jeepney Stop</name>
+        <description><![CDATA[Latitude: 14.659499077511105<br>Longitude: 121.071724197194]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Latitude">
+            <value>14.659499077511105</value>
+          </Data>
+          <Data name="Longitude">
+            <value>121.071724197194</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            121.071724197194,14.6594990775111,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>DiliMall Jeepney Stop</name>
+        <description><![CDATA[Latitude: 14.659447741474374<br>Longitude: 121.07012918766144]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Latitude">
+            <value>14.659447741474374</value>
+          </Data>
+          <Data name="Longitude">
+            <value>121.07012918766144</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            121.070129187661,14.6594477414744,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kalayaan Jeepney Stop</name>
+        <description><![CDATA[Latitude: 14.658822858631897<br>Longitude: 121.06842338464811]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Latitude">
+            <value>14.658822858631897</value>
+          </Data>
+          <Data name="Longitude">
+            <value>121.06842338464811</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            121.068423384648,14.6588228586319,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Molave Jeepney Stop</name>
+        <description><![CDATA[Latitude: 14.657827771841145<br>Longitude: 121.06838457984503]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Latitude">
+            <value>14.657827771841145</value>
+          </Data>
+          <Data name="Longitude">
+            <value>121.06838457984503</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            121.068384579845,14.6578277718411,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Univ Theater Jeepney Stop</name>
+        <description><![CDATA[Latitude: 14.657527871738434<br>Longitude: 121.06621915145195]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Latitude">
+            <value>14.657527871738434</value>
+          </Data>
+          <Data name="Longitude">
+            <value>121.06621915145195</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            121.066219151452,14.6575278717384,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ylanan Jeepney Stop</name>
+        <description><![CDATA[Latitude: 14.657647790935783<br>Longitude: 121.06495459618887]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Latitude">
+            <value>14.657647790935783</value>
+          </Data>
+          <Data name="Longitude">
+            <value>121.06495459618887</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            121.064954596189,14.6576477909358,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>CHK Jeepney Stop</name>
+        <description><![CDATA[Latitude: 14.657835352119342<br>Longitude: 121.06271330351703]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Latitude">
+            <value>14.657835352119342</value>
+          </Data>
+          <Data name="Longitude">
+            <value>121.06271330351703</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            121.062713303517,14.6578353521193,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Jacinto St. Jeepney Stop</name>
+        <description><![CDATA[Latitude: 14.654316950107162<br>Longitude: 121.06225707399904]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Latitude">
+            <value>14.654316950107162</value>
+          </Data>
+          <Data name="Longitude">
+            <value>121.06225707399904</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            121.062257073999,14.6543169501072,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Univ Ave Waiting Shed</name>
+        <description><![CDATA[Latitude: 14.654764016161314<br>Longitude: 121.06201196763672]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Latitude">
+            <value>14.654764016161314</value>
+          </Data>
+          <Data name="Longitude">
+            <value>121.06201196763672</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            121.062011967637,14.6547640161613,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>CFA Waiting Shed</name>
+        <description><![CDATA[Latitude: 14.65273658165897<br>Longitude: 121.06228322553561]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Latitude">
+            <value>14.65273658165897</value>
+          </Data>
+          <Data name="Longitude">
+            <value>121.06228322553561</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            121.062283225536,14.652736581659,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>GyudFood Waiting Shed</name>
+        <description><![CDATA[Latitude: 14.652080583317467<br>Longitude: 121.06237739424353]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Latitude">
+            <value>14.652080583317467</value>
+          </Data>
+          <Data name="Longitude">
+            <value>121.06237739424353</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            121.062377394244,14.6520805833175,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Village B Waiting Shed</name>
+        <description><![CDATA[Latitude: 14.65036999548662<br>Longitude: 121.06226057101725]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Latitude">
+            <value>14.65036999548662</value>
+          </Data>
+          <Data name="Longitude">
+            <value>121.06226057101725</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            121.062260571017,14.6503699954866,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Centennial Waiting Shed</name>
+        <description><![CDATA[Latitude: 14.648196995014976<br>Longitude: 121.0622445368375]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Latitude">
+            <value>14.648196995014976</value>
+          </Data>
+          <Data name="Longitude">
+            <value>121.0622445368375</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            121.062244536837,14.648196995015,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>UP - SM North Jeepney Stop</name>
+        <description><![CDATA[Latitude: <br>Longitude: ]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Latitude">
+            <value/>
+          </Data>
+          <Data name="Longitude">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            121.0729784,14.6541498,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Waiting Shed - Ipil UP Diliman</name>
+        <description><![CDATA[Latitude: <br>Longitude: ]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Latitude">
+            <value/>
+          </Data>
+          <Data name="Longitude">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            121.0703804,14.6576042,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Yakal Bike Parking</name>
+        <description><![CDATA[Latitude: <br>Longitude: ]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Latitude">
+            <value/>
+          </Data>
+          <Data name="Longitude">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            121.0693815,14.6577869,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ASP Waiting Shed</name>
+        <description><![CDATA[Latitude: <br>Longitude: ]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Latitude">
+            <value/>
+          </Data>
+          <Data name="Longitude">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            121.0632628,14.6529824,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Arki Waiting Shed</name>
+        <description><![CDATA[Latitude: <br>Longitude: ]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Latitude">
+            <value/>
+          </Data>
+          <Data name="Longitude">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            121.0654967,14.6513751,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>MSI / IEEE Jeepney Stop</name>
+        <description><![CDATA[Latitude: 14.649884528638509<br>Longitude: 121.06875008694358]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Latitude">
+            <value>14.649884528638509</value>
+          </Data>
+          <Data name="Longitude">
+            <value>121.06875008694358</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            121.068750086944,14.6498845286385,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pink shed</name>
+        <description><![CDATA[Latitude: <br>Longitude: ]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Latitude">
+            <value/>
+          </Data>
+          <Data name="Longitude">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            121.0658084,14.656157,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Tambayans</name>
+      <Placemark>
+        <name>Vinzons Hill Tambayan Complex</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.0731911,14.6538052,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>UP Pre-Medical Honor Society Tambayan</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.0704598,14.6511509,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>UP Association of Biology Majors Tambayan</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.0705332,14.6511827,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>UP APSM Tambayan</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.0706341,14.6534952,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Alpha Phi Beta Fraternity</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.0688685,14.653237,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>UP Psychology Society</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.0705869,14.6533764,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>UP Bukluran sa Sikolohiyang Pilipino (UP Buklod-Isip)</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.0705953,14.6534381,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>UP Junior Finance Association</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.0736208,14.6553496,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>UP Circle of Entrepreneurs</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.0736275,14.6552468,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>UP Advertising Core</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.073477,14.655236,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Peasant Advocates Tambayan</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.0730149,14.6537329,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>UP Chemical Society</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.0730595,14.6508269,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>UP Mountaineers Tambayan</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.0709292,14.6554933,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Academic Buildings</name>
+      <Placemark>
+        <name>National Institute of Molecular Biology and Biotechnology</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.0716427,14.650664,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>UP Institute of Biology</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.0711178,14.6508972,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Computational Science Research Center</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.0713583,14.6497818,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>College of Science Administrative Building</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.0705348,14.649678,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>National Institute of Physics</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.0729694,14.6493072,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>UP Diliman Math Building Annex (MBAN)</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.0719471,14.648446,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Environmental and Energy Engineering Building</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.0659822,14.6493619,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Institute of Mathematics</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.0714976,14.6484707,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>National Institute of Geological Sciences</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.0694712,14.6482293,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Department of Mining, Metallurgical and Materials Engineering (UP DMMME)</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.0681029,14.6479281,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Department of Chemical Engineering, University of the Philippines Diliman</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.0668864,14.6480291,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>UP Diliman Institute of Civil Engineering (UP-ICE)</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.0660437,14.6485694,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>UP Diliman Electrical and Electronics Engineering Institute</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.0684891,14.6498276,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>University of the Philippines College of Architecture</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.0650158,14.651551,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>College of Architecture Studio Laboratories Building</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.0648929,14.6509219,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>University of the Philippines Diliman Office of the University Registrar</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.066407,14.6515762,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>U.P. Office of Admissions</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.0662836,14.6516034,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>College of Arts and Letters</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.0674165,14.6526217,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Department of Anthropology - University of the Philippines - Diliman</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.067968,14.653295,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pavilion 1 - Palma Hall</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.0691388,14.6526724,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pavilion 2 - Palma Hall</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.0693896,14.6528153,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pavilion 3 - Palma Hall</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.0699289,14.6526454,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pavilion 4 - Palma Hall</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.0704464,14.6527997,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>University of the Philippines, College of Social Sciences and Philosophy</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.0698762,14.6536758,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>College of Business Administration</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.073319,14.655213,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>UP College of Law</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.0722285,14.6564397,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Industrial Engineering – Mechanical Engineering Building</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.0710094,14.6572049,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>UP Interactive Learning Center - Diliman</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.070506,14.65733,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>UP College of Human Kinetics</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.0628631,14.659217,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>UP Baseball Field</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.064175,14.6598858,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>U.P. Track Oval</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.0662949,14.6594307,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>University of the Philippines Institute for Small-Scale Industries</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.0619297,14.6565702,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>UP National College of Public Administration and Governance</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.0605074,14.6563438,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>UP NCPAG Student Council Office</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.060082,14.6565101,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>UP College of Home Economics Annex Building</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.0722081,14.6518679,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>UP Child Development Center</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.0736996,14.6521886,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>University of Philippines Institute of Chemistry - Research Building</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.0729181,14.6506918,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>The University Health Service</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.071047,14.659847,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ang Bahay ng Alumni</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.0665646,14.6578093,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>UP Office of Alumni Relations (Fonacier Hall)</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.0658652,14.6578002,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>UP Diliman Information Office</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.0659203,14.6572811,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Villamor Hall</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.066129,14.656421,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>UP Amphitheater</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.0655784,14.6550087,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Office of the Vice Chancellor for Community Affairs (OVCCA)</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.0651426,14.6545654,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>UP Diliman Office of the Vice Chancellor for Administration (UP OVCA)</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.0651488,14.6544503,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[UP Center for Women's Studies Foundation, Incorporated]]></name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.0645128,14.6573054,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>University of the Philippines College of Social Work and Community Development</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.063787,14.6571224,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>UP Diliman Varsity Training Center</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.0616396,14.6578515,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>UP National Sports Complex</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.0627655,14.6586601,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>GT-Toyota Asian Center</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.0734664,14.6569968,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>UP Asian Center</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.0729874,14.6569941,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Amenities</name>
+      <Placemark>
+        <name>JRK Photocopy and Printing Services</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.0684344,14.6597322,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>YZA Digital Printing Services</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.0626116,14.6480687,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>NIGS Motorpool</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.0697373,14.6475754,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Parking lot</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.0697431,14.6484524,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Institute of Mathematics Parking</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.0711471,14.6489303,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Parking lot</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.0713999,14.6479252,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Parking lot</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.073527,14.6489253,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Computational Science Research Center (CSRC) Parking Lot</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.0712397,14.6500019,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>CS Library Parking</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.0688927,14.649567,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Institute of Civil Engineering Student Parking</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.0656857,14.648715,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Parking lot</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.0620853,14.6517237,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>College of Music Parking Lot</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.0649962,14.6569945,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>UP Film Center Open Parking</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.067556,14.6570019,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Parking lot</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.0620853,14.6567365,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kamia Parking Lot</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.0705491,14.6522949,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Parking lot</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.0710193,14.6522862,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Institute of Biology Parking Lot</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.0709074,14.6526463,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Parking lot</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.0733255,14.6476009,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>A.S. Parking Lot</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.0697878,14.6539837,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Parking lot</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.0728777,14.6582575,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Church of the Risen Lord</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.0721079,14.6595642,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Parking lot</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.0697878,14.6599665,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Landbank</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.0702777,14.659743,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Robinsons Easymart UP Shopping Center, UP Diliman</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.0700053,14.6596645,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Landbank ATM</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.0703062,14.6600837,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Parking lot</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.0712208,14.6537724,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Parking lot</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.0649067,14.6554715,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>J4R Photocopying Services</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.068004,14.6597928,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>U.P. Parish Office</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.071059,14.65838,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>IMath Gate CP Garcia</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.0715426,14.647881,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>UP Diliman CP Garcia Gate</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.0689847,14.6472617,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>IC Shed</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.0737039,14.6498573,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>National Institute of Physics Parking</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.074001,14.6491979,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>U.P. Promenade</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.0702734,14.6549821,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>U.P. Pavilion</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.0699036,14.6553178,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sunken Grandstand</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.0728632,14.6550889,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tau Alpha Legacy Boardwalk</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.0686087,14.654924,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>U.P. Diliman Police Station and Fire Department</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.0654664,14.6520944,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Institute of Biology Parking</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.0710109,14.6505518,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
